@@ -6,4 +6,6 @@ plotly
 ipykernel
 scikit-learn
 Flask
+faker
+uuid
 #-e .
