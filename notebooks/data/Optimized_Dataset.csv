@@ -1,0 +1,712 @@
+Task ID,Task Description,Assigned To,Priority,Dependencies,Assigned Date,Expected Deadline,Estimated Time,Completed Date,Delay (days),Task Duration,Completion Time,Urgency,Completion Efficiency
+T1,Meeting with clients to gather initial project requirements,David,Medium,T91,2025-02-28,2025-03-06,6,2025-03-10,4,6,10,0.8571428571428571,0.5454545454545454
+T2,Presenting project updates to stakeholders,Charlie,Low,T29,2025-03-12,2025-03-20,8,2025-03-22,2,8,10,0.8888888888888888,0.7272727272727273
+T3,Conducting client feedback sessions on prototype development,Eve,Low,T5,2025-03-11,2025-03-15,4,2025-03-17,2,4,6,0.8,0.5714285714285714
+T4,Aligning project goals with business objectives through stakeholder meetings,Charlie,Medium,T45,2025-02-17,2025-02-23,6,2025-02-26,3,6,9,0.8571428571428571,0.6
+T5,Negotiating project scope and deliverables with clients,Alice,Medium,No Dependency,2025-02-13,2025-02-19,6,2025-02-24,5,6,11,0.8571428571428571,0.5
+T6,Gathering user insights through client interviews,Eve,Low,T13,2025-01-27,2025-01-28,1,2025-01-31,3,1,4,0.5,0.2
+T7,Collaborating with marketing teams on product positioning,Alice,Low,T13,2025-01-27,2025-01-28,1,2025-01-27,-1,1,0,0.5,1.0
+T8,Explaining technical limitations to non-technical stakeholders,Charlie,High,T40,2025-01-19,2025-01-20,1,2025-01-19,-1,1,0,0.5,1.0
+T9,Hosting a webinar to showcase new product features,Alice,High,T25,2025-01-26,2025-01-29,3,2025-02-02,4,3,7,0.75,0.375
+T10,Responding to client queries on product roadmap,Bob,Medium,T34,2025-01-28,2025-02-03,6,2025-02-02,-1,6,5,0.8571428571428571,1.0
+T11,Conducting market research to identify industry trends,Eve,Medium,T40,2025-02-15,2025-02-20,5,2025-02-22,2,5,7,0.8333333333333334,0.625
+T12,Analyzing competitor products for benchmarking,David,Medium,T53,2025-02-16,2025-02-23,7,2025-02-27,4,7,11,0.875,0.5833333333333334
+T13,Evaluating potential product-market fit,David,Low,T45,2025-03-06,2025-03-07,1,2025-03-12,5,1,6,0.5,0.14285714285714285
+T14,Reviewing customer pain points from surveys and reviews,Bob,Low,T25,2025-02-21,2025-02-23,2,2025-02-23,0,2,2,0.6666666666666666,0.6666666666666666
+T15,Assessing demand for new product features,Alice,High,T84,2025-01-23,2025-01-31,8,2025-01-28,-3,8,5,0.8888888888888888,1.3333333333333333
+T16,Creating user personas based on market data,Charlie,Medium,T53,2025-01-29,2025-02-02,4,2025-01-30,-3,4,1,0.8,2.0
+T17,Identifying key differentiators for the product,Eve,Low,T83,2025-01-25,2025-02-01,7,2025-02-06,5,7,12,0.875,0.5384615384615384
+T18,Researching pricing strategies in competitive markets,Bob,High,T53,2025-03-16,2025-03-20,4,2025-03-23,3,4,7,0.8,0.5
+T19,Analyzing customer feedback to identify improvement areas,Charlie,Medium,T38,2025-02-02,2025-02-11,9,2025-02-13,2,9,11,0.9,0.75
+T20,Gathering insights from industry reports,Bob,High,T68,2025-02-02,2025-02-08,6,2025-02-10,2,6,8,0.8571428571428571,0.6666666666666666
+T21,Defining quarterly product roadmap milestones,Charlie,Medium,T34,2025-01-29,2025-02-04,6,2025-02-03,-1,6,5,0.8571428571428571,1.0
+T22,Prioritizing product features based on impact and feasibility,Charlie,Low,T99,2025-03-08,2025-03-10,2,2025-03-09,-1,2,1,0.6666666666666666,1.0
+T23,Breaking down roadmap initiatives into actionable tasks,Alice,Low,T65,2025-02-04,2025-02-10,6,2025-02-13,3,6,9,0.8571428571428571,0.6
+T24,Creating a timeline for MVP release,Alice,High,T54,2025-02-02,2025-02-03,1,2025-02-08,5,1,6,0.5,0.14285714285714285
+T25,Aligning product roadmap with company objectives,Alice,Low,T84,2025-01-21,2025-01-31,10,2025-01-28,-3,10,7,0.9090909090909091,1.25
+T26,Presenting the product roadmap to stakeholders,Alice,Low,T47,2025-02-03,2025-02-09,6,2025-02-12,3,6,9,0.8571428571428571,0.6
+T27,Coordinating product vision alignment with leadership,Alice,Low,T41,2025-02-23,2025-03-04,9,2025-03-09,5,9,14,0.9,0.6
+T28,Updating product backlog with new priorities,Alice,Medium,T71,2025-02-14,2025-02-22,8,2025-02-26,4,8,12,0.8888888888888888,0.6153846153846154
+T29,Planning feature rollouts across different user segments,Bob,Low,T54,2025-01-21,2025-01-26,5,2025-01-28,2,5,7,0.8333333333333334,0.625
+T30,Documenting product decisions for future reference,Bob,High,T65,2025-02-03,2025-02-04,1,2025-02-09,5,1,6,0.5,0.14285714285714285
+T31,Reviewing wireframes created by the UX team,Bob,Medium,T12,2025-02-02,2025-02-06,4,2025-02-11,5,4,9,0.8,0.4
+T32,Conducting usability tests on early prototypes,Bob,Low,T12,2025-01-19,2025-01-26,7,2025-01-26,0,7,7,0.875,0.875
+T33,Collecting team feedback on wireframe iterations,Eve,Medium,T83,2025-02-04,2025-02-10,6,2025-02-08,-2,6,4,0.8571428571428571,1.2
+T34,Approving final design prototypes before development,Bob,Medium,T71,2025-03-14,2025-03-23,9,2025-03-25,2,9,11,0.9,0.75
+T35,Reviewing competitor UX patterns for inspiration,Alice,High,T53,2025-01-25,2025-01-26,1,2025-01-31,5,1,6,0.5,0.14285714285714285
+T36,Aligning UI/UX designs with accessibility standards,David,Medium,T71,2025-02-03,2025-02-04,1,2025-02-01,-3,1,-2,0.5,-1.0
+T37,Iterating on wireframe designs based on stakeholder input,Charlie,Low,T48,2025-01-31,2025-02-05,5,2025-02-03,-2,5,3,0.8333333333333334,1.25
+T38,Analyzing heatmap data to improve UI design,Eve,Low,T81,2025-03-17,2025-03-26,9,2025-03-29,3,9,12,0.9,0.6923076923076923
+T39,Conducting A/B tests for design variations,Alice,High,T43,2025-03-04,2025-03-14,10,2025-03-17,3,10,13,0.9090909090909091,0.7142857142857143
+T40,Preparing design mockups for developer handoff,Alice,Low,T40,2025-02-01,2025-02-08,7,2025-02-13,5,7,12,0.875,0.5384615384615384
+T41,Running daily stand-up meetings with the development team,David,Low,T12,2025-02-11,2025-02-21,10,2025-02-18,-3,10,7,0.9090909090909091,1.25
+T42,Refining user stories for the development sprint,Charlie,High,T99,2025-03-04,2025-03-05,1,2025-03-09,4,1,5,0.5,0.16666666666666666
+T43,Conducting backlog grooming sessions,Bob,Medium,T46,2025-02-12,2025-02-14,2,2025-02-17,3,2,5,0.6666666666666666,0.3333333333333333
+T44,Assigning tasks to team members in project management tools,Charlie,High,T79,2025-03-04,2025-03-08,4,2025-03-07,-1,4,3,0.8,1.0
+T45,Hosting sprint planning meetings,David,Medium,T65,2025-02-25,2025-03-04,7,2025-03-03,-1,7,6,0.875,1.0
+T46,Resolving blockers during sprint execution,Charlie,Low,T5,2025-03-09,2025-03-18,9,2025-03-19,1,9,10,0.9,0.8181818181818182
+T47,Monitoring sprint progress and adjusting timelines,Alice,High,T20,2025-02-06,2025-02-16,10,2025-02-18,2,10,12,0.9090909090909091,0.7692307692307693
+T48,Collaborating with QA to identify product bugs,Charlie,Low,T11,2025-01-28,2025-01-29,1,2025-01-31,2,1,3,0.5,0.25
+T49,Leading sprint retrospective discussions,Bob,High,T20,2025-02-12,2025-02-19,7,2025-02-20,1,7,8,0.875,0.7777777777777778
+T50,Conducting mid-sprint check-ins with developers,Eve,Medium,T12,2025-03-15,2025-03-17,2,2025-03-22,5,2,7,0.6666666666666666,0.25
+T51,Reviewing technical feasibility with engineers,Eve,High,T53,2025-02-03,2025-02-12,9,2025-02-14,2,9,11,0.9,0.75
+T52,Finalizing API requirements with developers,David,Low,T79,2025-02-17,2025-02-26,9,2025-03-01,3,9,12,0.9,0.6923076923076923
+T53,Defining acceptance criteria for product features,Charlie,Medium,T62,2025-02-22,2025-02-28,6,2025-03-03,3,6,9,0.8571428571428571,0.6
+T54,Providing clarity on product requirements to engineers,Bob,Medium,T41,2025-02-25,2025-03-03,6,2025-03-07,4,6,10,0.8571428571428571,0.5454545454545454
+T55,Collaborating with QA on test case creation,David,High,T2,2025-01-30,2025-02-02,3,2025-02-06,4,3,7,0.75,0.375
+T56,Evaluating development effort estimates for new features,Charlie,Medium,T11,2025-02-25,2025-03-01,4,2025-02-28,-1,4,3,0.8,1.0
+T57,Reviewing pull requests for product changes,Eve,Medium,T12,2025-01-23,2025-01-24,1,2025-01-28,4,1,5,0.5,0.16666666666666666
+T58,Coordinating with DevOps for deployment strategies,Alice,Medium,T38,2025-01-31,2025-02-06,6,2025-02-05,-1,6,5,0.8571428571428571,1.0
+T59,Ensuring performance optimizations in product features,Eve,Medium,T4,2025-02-15,2025-02-24,9,2025-02-23,-1,9,8,0.9,1.0
+T60,Validating completed features before release,Bob,High,T76,2025-03-16,2025-03-26,10,2025-03-31,5,10,15,0.9090909090909091,0.625
+T61,Reviewing bug reports from QA teams,Alice,High,T84,2025-01-30,2025-02-02,3,2025-02-03,1,3,4,0.75,0.6
+T62,Participating in product demo sessions with developers,Eve,High,T11,2025-03-10,2025-03-16,6,2025-03-20,4,6,10,0.8571428571428571,0.5454545454545454
+T63,Conducting user acceptance testing (UAT),Bob,Medium,T78,2025-01-26,2025-01-29,3,2025-02-01,3,3,6,0.75,0.42857142857142855
+T64,Prioritizing bug fixes based on severity,Bob,High,T60,2025-01-30,2025-02-05,6,2025-02-05,0,6,6,0.8571428571428571,0.8571428571428571
+T65,Testing product features across different devices,David,Low,T43,2025-01-28,2025-02-05,8,2025-02-04,-1,8,7,0.8888888888888888,1.0
+T66,Ensuring compliance with security and privacy regulations,Charlie,Medium,T40,2025-03-02,2025-03-04,2,2025-03-05,1,2,3,0.6666666666666666,0.5
+T67,Monitoring crash reports for stability issues,David,Low,T20,2025-03-17,2025-03-21,4,2025-03-19,-2,4,2,0.8,1.3333333333333333
+T68,Gathering feedback from beta testers,Eve,Low,T5,2025-01-29,2025-02-05,7,2025-02-07,2,7,9,0.875,0.7
+T69,Addressing UI inconsistencies in the final build,Eve,Low,T83,2025-02-01,2025-02-08,7,2025-02-10,2,7,9,0.875,0.7
+T70,Running post-release bug triage meetings,Eve,Low,T71,2025-03-01,2025-03-04,3,2025-03-09,5,3,8,0.75,0.3333333333333333
+T71,Defining key performance indicators (KPIs) for the launch,Alice,Low,T11,2025-02-24,2025-02-28,4,2025-02-27,-1,4,3,0.8,1.0
+T72,Coordinating with marketing on launch campaigns,Charlie,Low,No Dependency,2025-03-10,2025-03-20,10,2025-03-19,-1,10,9,0.9090909090909091,1.0
+T73,Preparing product demo presentations for launch events,Charlie,Low,T2,2025-03-01,2025-03-08,7,2025-03-10,2,7,9,0.875,0.7
+T74,Aligning sales strategies with product features,Eve,High,T48,2025-03-09,2025-03-19,10,2025-03-19,0,10,10,0.9090909090909091,0.9090909090909091
+T75,Conducting internal training sessions on the new product,David,High,T53,2025-01-23,2025-01-27,4,2025-01-30,3,4,7,0.8,0.5
+T76,Ensuring product documentation is up to date,Eve,High,T71,2025-03-16,2025-03-24,8,2025-03-23,-1,8,7,0.8888888888888888,1.0
+T77,Finalizing pricing and packaging details,David,Medium,T12,2025-02-27,2025-03-02,3,2025-03-04,2,3,5,0.75,0.5
+T78,Launching pilot programs for early adopters,Bob,Medium,T65,2025-03-02,2025-03-04,2,2025-03-05,1,2,3,0.6666666666666666,0.5
+T79,Preparing product FAQ documents for customer support teams,Charlie,Medium,T71,2025-02-18,2025-02-24,6,2025-02-26,2,6,8,0.8571428571428571,0.6666666666666666
+T80,Gathering post-launch feedback for improvements,David,Low,T17,2025-03-16,2025-03-22,6,2025-03-27,5,6,11,0.8571428571428571,0.5
+T81,Reviewing customer satisfaction metrics,Alice,Medium,T99,2025-02-06,2025-02-16,10,2025-02-16,0,10,10,0.9090909090909091,0.9090909090909091
+T82,Addressing customer complaints related to product features,Eve,Medium,T75,2025-03-15,2025-03-18,3,2025-03-22,4,3,7,0.75,0.375
+T83,Monitoring user engagement after product launch,David,Medium,T25,2025-03-11,2025-03-18,7,2025-03-17,-1,7,6,0.875,1.0
+T84,Conducting surveys on product usability,Eve,High,T22,2025-03-15,2025-03-22,7,2025-03-23,1,7,8,0.875,0.7777777777777778
+T85,Iterating on features based on customer suggestions,David,Low,T91,2025-01-23,2025-01-30,7,2025-01-28,-2,7,5,0.875,1.1666666666666667
+T86,Defining customer support escalation policies,Eve,Low,T71,2025-02-01,2025-02-09,8,2025-02-13,4,8,12,0.8888888888888888,0.6153846153846154
+T87,Analyzing churn reasons from customer exit surveys,Bob,Medium,T79,2025-01-22,2025-01-28,6,2025-01-28,0,6,6,0.8571428571428571,0.8571428571428571
+T88,Improving product documentation based on support tickets,Eve,High,T53,2025-02-08,2025-02-11,3,2025-02-16,5,3,8,0.75,0.3333333333333333
+T89,Enhancing onboarding experiences for new users,Charlie,High,T48,2025-03-04,2025-03-05,1,2025-03-07,2,1,3,0.5,0.25
+T90,Coordinating with customer success teams on retention strategies,David,Medium,T79,2025-01-30,2025-02-01,2,2025-02-01,0,2,2,0.6666666666666666,0.6666666666666666
+T91,Tracking key product metrics using analytics tools,Eve,High,T47,2025-03-19,2025-03-28,9,2025-03-26,-2,9,7,0.9,1.125
+T92,Reviewing conversion rates for new features,Alice,High,T79,2025-02-27,2025-03-05,6,2025-03-06,1,6,7,0.8571428571428571,0.75
+T93,Analyzing user behavior patterns in-app,Alice,High,T45,2025-03-18,2025-03-20,2,2025-03-18,-2,2,0,0.6666666666666666,2.0
+T94,Monitoring feature adoption rates,Eve,Medium,T91,2025-02-28,2025-03-02,2,2025-02-28,-2,2,0,0.6666666666666666,2.0
+T95,Identifying bottlenecks in user flow,Charlie,Medium,T65,2025-02-10,2025-02-19,9,2025-02-17,-2,9,7,0.9,1.125
+T96,Generating data-driven insights for future planning,Bob,High,T46,2025-03-11,2025-03-16,5,2025-03-19,3,5,8,0.8333333333333334,0.5555555555555556
+T97,Creating dashboards for executive reporting,Bob,High,T47,2025-02-24,2025-03-06,10,2025-03-05,-1,10,9,0.9090909090909091,1.0
+T98,Conducting cohort analysis to improve retention,Charlie,Low,T41,2025-01-27,2025-01-31,4,2025-01-28,-3,4,1,0.8,2.0
+T99,A/B testing feature impact on engagement,Eve,Medium,T41,2025-03-12,2025-03-16,4,2025-03-19,3,4,7,0.8,0.5
+T100,Implementing data-driven decision-making frameworks,Charlie,High,T30,2025-03-02,2025-03-05,3,2025-03-09,4,3,7,0.75,0.375
+T101,Conducting one-on-one user interviews for feedback,David,High,T61,2025-03-10,2025-03-15,5,2025-03-19,4,5,9,0.8333333333333334,0.5
+T102,Analyzing survey responses to understand user needs,David,High,T27,2025-02-19,2025-02-24,5,2025-02-26,2,5,7,0.8333333333333334,0.625
+T103,Creating customer journey maps for different personas,Eve,High,T13,2025-03-01,2025-03-09,8,2025-03-13,4,8,12,0.8888888888888888,0.6153846153846154
+T104,Reviewing product usage analytics to identify friction points,Bob,Low,T20,2025-01-19,2025-01-24,5,2025-01-28,4,5,9,0.8333333333333334,0.5
+T105,Conducting focus group discussions with target users,David,High,T78,2025-02-08,2025-02-14,6,2025-02-13,-1,6,5,0.8571428571428571,1.0
+T106,Monitoring online forums for product-related discussions,Eve,Low,T13,2025-02-09,2025-02-10,1,2025-02-13,3,1,4,0.5,0.2
+T107,Collecting feedback through in-app surveys,Charlie,Medium,T78,2025-02-11,2025-02-19,8,2025-02-17,-2,8,6,0.8888888888888888,1.1428571428571428
+T108,Hosting customer advisory board meetings,Alice,Medium,T43,2025-02-13,2025-02-21,8,2025-02-23,2,8,10,0.8888888888888888,0.7272727272727273
+T109,Reviewing feature requests submitted by users,Charlie,High,T99,2025-03-11,2025-03-14,3,2025-03-13,-1,3,2,0.75,1.0
+T110,Creating empathy maps based on user feedback,Eve,Medium,T5,2025-01-21,2025-01-27,6,2025-01-24,-3,6,3,0.8571428571428571,1.5
+T111,Writing clear and concise product requirement documents (PRDs),David,Low,T45,2025-01-19,2025-01-27,8,2025-01-31,4,8,12,0.8888888888888888,0.6153846153846154
+T112,Updating internal wikis with product specifications,Alice,Medium,T53,2025-02-12,2025-02-18,6,2025-02-22,4,6,10,0.8571428571428571,0.5454545454545454
+T113,Documenting API endpoints for developers,David,Low,T71,2025-02-24,2025-03-02,6,2025-03-02,0,6,6,0.8571428571428571,0.8571428571428571
+T114,Preparing onboarding guides for new users,David,High,T29,2025-02-18,2025-02-20,2,2025-02-25,5,2,7,0.6666666666666666,0.25
+T115,Maintaining a knowledge base for customer support teams,Alice,Low,T65,2025-02-14,2025-02-16,2,2025-02-14,-2,2,0,0.6666666666666666,2.0
+T116,Creating version control documentation for product releases,David,High,T4,2025-03-17,2025-03-22,5,2025-03-24,2,5,7,0.8333333333333334,0.625
+T117,Writing feature documentation for internal teams,David,Medium,T65,2025-02-16,2025-02-22,6,2025-02-20,-2,6,4,0.8571428571428571,1.2
+T118,Organizing and maintaining design system documentation,Charlie,Low,T30,2025-03-05,2025-03-11,6,2025-03-15,4,6,10,0.8571428571428571,0.5454545454545454
+T119,Creating FAQs for frequently reported product issues,Alice,Medium,T89,2025-03-06,2025-03-14,8,2025-03-16,2,8,10,0.8888888888888888,0.7272727272727273
+T120,Documenting lessons learned from past projects,Eve,Low,T43,2025-02-21,2025-03-01,8,2025-02-28,-1,8,7,0.8888888888888888,1.0
+T121,Coordinating with engineering teams on sprint priorities,Alice,Low,T12,2025-03-03,2025-03-04,1,2025-03-08,4,1,5,0.5,0.16666666666666666
+T122,Aligning marketing campaigns with product launch timelines,Bob,Low,T68,2025-03-13,2025-03-16,3,2025-03-20,4,3,7,0.75,0.375
+T123,Communicating product changes to customer support teams,Alice,Low,T91,2025-02-07,2025-02-09,2,2025-02-10,1,2,3,0.6666666666666666,0.5
+T124,Collaborating with sales to define product messaging,Bob,Medium,T53,2025-03-12,2025-03-16,4,2025-03-16,0,4,4,0.8,0.8
+T125,Partnering with UX designers on usability improvements,David,High,T54,2025-03-04,2025-03-07,3,2025-03-06,-1,3,2,0.75,1.0
+T126,Conducting training sessions for internal teams,Eve,Low,T2,2025-03-05,2025-03-15,10,2025-03-13,-2,10,8,0.9090909090909091,1.1111111111111112
+T127,Ensuring alignment between product and legal teams,Charlie,High,T68,2025-01-31,2025-02-02,2,2025-02-04,2,2,4,0.6666666666666666,0.4
+T128,Working with finance teams on pricing models,David,Medium,No Dependency,2025-02-18,2025-02-24,6,2025-02-22,-2,6,4,0.8571428571428571,1.2
+T129,Syncing with data analysts to track feature performance,David,Medium,T30,2025-03-15,2025-03-21,6,2025-03-22,1,6,7,0.8571428571428571,0.75
+T130,Coordinating with HR for product training initiatives,Alice,High,T17,2025-01-21,2025-01-24,3,2025-01-23,-1,3,2,0.75,1.0
+T131,Creating detailed user stories for backlog items,David,High,T5,2025-03-19,2025-03-22,3,2025-03-23,1,3,4,0.75,0.6
+T132,Prioritizing tasks in Jira or other project management tools,Charlie,High,T41,2025-02-04,2025-02-05,1,2025-02-05,0,1,1,0.5,0.5
+T133,Conducting story refinement sessions with developers,Alice,Medium,T29,2025-03-01,2025-03-11,10,2025-03-15,4,10,14,0.9090909090909091,0.6666666666666666
+T134,Running daily stand-up meetings with cross-functional teams,David,High,T79,2025-02-24,2025-03-05,9,2025-03-03,-2,9,7,0.9,1.125
+T135,Assigning and tracking sprint deliverables,Alice,High,T61,2025-02-05,2025-02-10,5,2025-02-07,-3,5,2,0.8333333333333334,1.6666666666666667
+T136,Conducting sprint reviews with key stakeholders,David,Medium,T25,2025-02-28,2025-03-09,9,2025-03-12,3,9,12,0.9,0.6923076923076923
+T137,Performing sprint retrospectives for continuous improvement,Charlie,Medium,T25,2025-02-03,2025-02-06,3,2025-02-08,2,3,5,0.75,0.5
+T138,Addressing team concerns during sprint execution,Charlie,Medium,T5,2025-03-05,2025-03-09,4,2025-03-14,5,4,9,0.8,0.4
+T139,Collaborating with Scrum Masters for process optimization,Charlie,Low,T45,2025-02-11,2025-02-13,2,2025-02-14,1,2,3,0.6666666666666666,0.5
+T140,Aligning agile methodologies with company objectives,Eve,Medium,T20,2025-01-22,2025-02-01,10,2025-01-31,-1,10,9,0.9090909090909091,1.0
+T141,Defining feature specifications based on user needs,Bob,Medium,T75,2025-01-29,2025-02-06,8,2025-02-06,0,8,8,0.8888888888888888,0.8888888888888888
+T142,Creating feature roadmaps aligned with business goals,David,High,T2,2025-02-06,2025-02-10,4,2025-02-12,2,4,6,0.8,0.5714285714285714
+T143,Prioritizing feature requests using MoSCoW method,Bob,Medium,T45,2025-03-12,2025-03-15,3,2025-03-16,1,3,4,0.75,0.6
+T144,Conducting cost-benefit analysis for new features,Bob,Medium,T5,2025-02-16,2025-02-22,6,2025-02-20,-2,6,4,0.8571428571428571,1.2
+T145,Balancing short-term fixes with long-term product vision,Alice,Low,T11,2025-01-26,2025-02-03,8,2025-02-04,1,8,9,0.8888888888888888,0.8
+T146,Reviewing feature feasibility with engineering teams,Eve,Low,T41,2025-02-22,2025-03-01,7,2025-02-28,-1,7,6,0.875,1.0
+T147,Creating MVPs for experimental features,Bob,High,T12,2025-02-25,2025-03-02,5,2025-03-02,0,5,5,0.8333333333333334,0.8333333333333334
+T148,Aligning feature development with strategic goals,Bob,Medium,T20,2025-02-23,2025-02-27,4,2025-03-02,3,4,7,0.8,0.5
+T149,Analyzing user engagement data for feature enhancements,Charlie,Medium,T61,2025-03-08,2025-03-11,3,2025-03-09,-2,3,1,0.75,1.5
+T150,Ensuring feature consistency across different platforms,Alice,Medium,T30,2025-02-24,2025-03-02,6,2025-03-05,3,6,9,0.8571428571428571,0.6
+T151,Identifying potential product risks before launch,Alice,Low,T48,2025-02-17,2025-02-23,6,2025-02-28,5,6,11,0.8571428571428571,0.5
+T152,Ensuring compliance with GDPR and other privacy laws,David,Low,T2,2025-03-04,2025-03-09,5,2025-03-12,3,5,8,0.8333333333333334,0.5555555555555556
+T153,Conducting security assessments for new features,Eve,Medium,T13,2025-02-01,2025-02-08,7,2025-02-08,0,7,7,0.875,0.875
+T154,Addressing legal concerns related to product updates,Charlie,High,T38,2025-02-11,2025-02-14,3,2025-02-19,5,3,8,0.75,0.3333333333333333
+T155,Documenting risk mitigation strategies for leadership,Bob,Low,T13,2025-02-14,2025-02-17,3,2025-02-18,1,3,4,0.75,0.6
+T156,Collaborating with compliance teams on product policies,David,Low,T39,2025-02-26,2025-03-08,10,2025-03-08,0,10,10,0.9090909090909091,0.9090909090909091
+T157,Ensuring accessibility compliance in product design,Bob,Low,T65,2025-03-04,2025-03-05,1,2025-03-02,-3,1,-2,0.5,-1.0
+T158,Creating contingency plans for potential product failures,Bob,Low,T5,2025-02-09,2025-02-15,6,2025-02-20,5,6,11,0.8571428571428571,0.5
+T159,Conducting security audits with external consultants,Charlie,High,T45,2025-03-17,2025-03-18,1,2025-03-18,0,1,1,0.5,0.5
+T160,Aligning product practices with industry regulations,David,Medium,T2,2025-02-10,2025-02-14,4,2025-02-13,-1,4,3,0.8,1.0
+T161,Monitoring app performance across different devices,David,High,T13,2025-02-16,2025-02-17,1,2025-02-22,5,1,6,0.5,0.14285714285714285
+T162,Analyzing server load times for performance bottlenecks,Bob,Medium,T2,2025-02-01,2025-02-04,3,2025-02-09,5,3,8,0.75,0.3333333333333333
+T163,Optimizing database queries for better response times,David,High,T47,2025-02-11,2025-02-20,9,2025-02-22,2,9,11,0.9,0.75
+T164,Working with DevOps on scaling infrastructure,Alice,High,T83,2025-01-31,2025-02-03,3,2025-02-06,3,3,6,0.75,0.42857142857142855
+T165,Reviewing caching strategies for faster loading times,Bob,Low,T20,2025-02-15,2025-02-17,2,2025-02-20,3,2,5,0.6666666666666666,0.3333333333333333
+T166,Improving API response times through optimization,David,Low,T54,2025-03-17,2025-03-24,7,2025-03-27,3,7,10,0.875,0.6363636363636364
+T167,Implementing lazy loading for improved UI performance,Eve,Low,T34,2025-02-17,2025-02-25,8,2025-03-02,5,8,13,0.8888888888888888,0.5714285714285714
+T168,Ensuring smooth performance during peak traffic hours,Eve,Medium,T54,2025-01-28,2025-01-31,3,2025-01-30,-1,3,2,0.75,1.0
+T169,Testing product performance under high user loads,Bob,High,T34,2025-02-03,2025-02-10,7,2025-02-14,4,7,11,0.875,0.5833333333333334
+T170,Identifying slow-performing features for optimization,Alice,High,T79,2025-02-15,2025-02-22,7,2025-02-22,0,7,7,0.875,0.875
+T171,Identifying reasons for user churn through data analysis,David,Medium,T53,2025-02-28,2025-03-10,10,2025-03-12,2,10,12,0.9090909090909091,0.7692307692307693
+T172,Implementing retention strategies for long-term engagement,Charlie,Medium,T79,2025-01-30,2025-01-31,1,2025-02-04,4,1,5,0.5,0.16666666666666666
+T173,Designing loyalty programs for frequent users,David,Low,T43,2025-02-07,2025-02-10,3,2025-02-14,4,3,7,0.75,0.375
+T174,Enhancing onboarding experiences for new customers,David,High,T41,2025-01-27,2025-02-02,6,2025-01-30,-3,6,3,0.8571428571428571,1.5
+T175,Creating referral programs to drive product adoption,Alice,Medium,T20,2025-02-15,2025-02-17,2,2025-02-17,0,2,2,0.6666666666666666,0.6666666666666666
+T176,Improving user engagement through gamification,Alice,High,T20,2025-03-19,2025-03-23,4,2025-03-23,0,4,4,0.8,0.8
+T177,Implementing lifecycle emails to increase retention,David,Medium,T81,2025-02-23,2025-03-05,10,2025-03-04,-1,10,9,0.9090909090909091,1.0
+T178,Analyzing cohort data for user behavior trends,Eve,Medium,T39,2025-03-13,2025-03-17,4,2025-03-21,4,4,8,0.8,0.4444444444444444
+T179,Optimizing free-to-paid conversion funnels,Charlie,Low,T34,2025-03-16,2025-03-20,4,2025-03-22,2,4,6,0.8,0.5714285714285714
+T180,Developing re-engagement campaigns for inactive users,Eve,Low,T29,2025-03-03,2025-03-06,3,2025-03-09,3,3,6,0.75,0.42857142857142855
+T181,Implementing AI-based recommendations in the product,Alice,High,T40,2025-03-03,2025-03-04,1,2025-03-01,-3,1,-2,0.5,-1.0
+T182,Utilizing machine learning for predictive analytics,Bob,Medium,T17,2025-03-11,2025-03-14,3,2025-03-15,1,3,4,0.75,0.6
+T183,Leveraging data visualization for business insights,Charlie,Low,T89,2025-02-26,2025-03-06,8,2025-03-08,2,8,10,0.8888888888888888,0.7272727272727273
+T184,Creating dashboards for real-time product tracking,David,Low,T12,2025-03-14,2025-03-16,2,2025-03-14,-2,2,0,0.6666666666666666,2.0
+T185,Conducting A/B tests to optimize user experience,Eve,Medium,T27,2025-02-12,2025-02-13,1,2025-02-11,-2,1,-1,0.5,inf
+T186,Using data to refine customer segmentation strategies,Charlie,High,T30,2025-01-30,2025-02-09,10,2025-02-13,4,10,14,0.9090909090909091,0.6666666666666666
+T187,Developing data-driven decision-making frameworks,Alice,Medium,T20,2025-02-21,2025-03-01,8,2025-03-05,4,8,12,0.8888888888888888,0.6153846153846154
+T188,Implementing NLP for improved chatbot interactions,Eve,High,T22,2025-02-06,2025-02-10,4,2025-02-15,5,4,9,0.8,0.4
+T189,Enhancing personalization using user data insights,Alice,Medium,T61,2025-03-10,2025-03-20,10,2025-03-24,4,10,14,0.9090909090909091,0.6666666666666666
+T190,Integrating AI for customer support automation,David,High,T30,2025-02-06,2025-02-08,2,2025-02-09,1,2,3,0.6666666666666666,0.5
+T191,Evaluating third-party APIs for product integration,Bob,High,T71,2025-01-27,2025-02-04,8,2025-02-05,1,8,9,0.8888888888888888,0.8
+T192,Negotiating partnership agreements with vendors,Bob,Medium,T34,2025-02-08,2025-02-16,8,2025-02-18,2,8,10,0.8888888888888888,0.7272727272727273
+T193,Ensuring smooth integration of external tools,Charlie,High,T17,2025-02-05,2025-02-12,7,2025-02-16,4,7,11,0.875,0.5833333333333334
+T194,Working with partners to enhance product functionality,David,Medium,T12,2025-01-29,2025-02-04,6,2025-02-09,5,6,11,0.8571428571428571,0.5
+T195,Implementing SSO and authentication integrations,Eve,Low,T39,2025-01-23,2025-02-02,10,2025-02-03,1,10,11,0.9090909090909091,0.8333333333333334
+T196,Managing SDK implementations with external teams,David,High,T81,2025-03-15,2025-03-21,6,2025-03-25,4,6,10,0.8571428571428571,0.5454545454545454
+T197,Conducting API testing for third-party services,David,Low,T78,2025-03-17,2025-03-27,10,2025-03-27,0,10,10,0.9090909090909091,0.9090909090909091
+T198,Ensuring seamless data synchronization with partner platforms,Eve,Medium,T38,2025-03-06,2025-03-10,4,2025-03-09,-1,4,3,0.8,1.0
+T199,Negotiating feature co-development with strategic partners,Eve,Medium,T4,2025-01-28,2025-02-06,9,2025-02-08,2,9,11,0.9,0.75
+T200,Monitoring API performance post-integration,Charlie,Medium,T40,2025-01-21,2025-01-30,9,2025-02-03,4,9,13,0.9,0.6428571428571429
+T201,Researching emerging technologies for product innovation,Charlie,High,T62,2025-02-15,2025-02-23,8,2025-02-28,5,8,13,0.8888888888888888,0.5714285714285714
+T202,Exploring blockchain applications for product security,Eve,High,T79,2025-02-05,2025-02-12,7,2025-02-10,-2,7,5,0.875,1.1666666666666667
+T203,Investigating AR/VR for enhanced user experiences,Charlie,Low,T71,2025-03-13,2025-03-16,3,2025-03-17,1,3,4,0.75,0.6
+T204,Experimenting with voice UI for product interactions,Eve,Medium,T81,2025-03-07,2025-03-14,7,2025-03-13,-1,7,6,0.875,1.0
+T205,Exploring 5G applications for product improvements,Eve,Low,T20,2025-02-01,2025-02-10,9,2025-02-07,-3,9,6,0.9,1.2857142857142858
+T206,Staying updated on industry innovation trends,Alice,High,T43,2025-01-19,2025-01-29,10,2025-01-29,0,10,10,0.9090909090909091,0.9090909090909091
+T207,Attending conferences to identify new opportunities,Eve,High,T5,2025-03-19,2025-03-25,6,2025-03-28,3,6,9,0.8571428571428571,0.6
+T208,Collaborating with R&D teams on future initiatives,David,High,T83,2025-02-12,2025-02-15,3,2025-02-16,1,3,4,0.75,0.6
+T209,Identifying disruptive technologies for competitive advantage,Bob,Low,T46,2025-03-01,2025-03-04,3,2025-03-03,-1,3,2,0.75,1.0
+T210,Brainstorming breakthrough ideas for product differentiation,Eve,Low,T89,2025-02-04,2025-02-12,8,2025-02-16,4,8,12,0.8888888888888888,0.6153846153846154
+T211,Scaling product features for international markets,Eve,High,T41,2025-03-07,2025-03-16,9,2025-03-15,-1,9,8,0.9,1.0
+T212,Localizing UI content for different languages,Alice,High,T40,2025-01-21,2025-01-25,4,2025-01-28,3,4,7,0.8,0.5
+T213,Expanding product offerings based on user demand,Charlie,Low,T78,2025-01-27,2025-02-06,10,2025-02-11,5,10,15,0.9090909090909091,0.625
+T214,Developing acquisition strategies for new customers,Bob,Low,T91,2025-01-27,2025-02-06,10,2025-02-08,2,10,12,0.9090909090909091,0.7692307692307693
+T215,Conducting market entry analysis for new regions,Bob,High,T71,2025-03-10,2025-03-12,2,2025-03-16,4,2,6,0.6666666666666666,0.2857142857142857
+T216,Creating expansion roadmaps for international growth,Eve,High,T40,2025-02-12,2025-02-17,5,2025-02-18,1,5,6,0.8333333333333334,0.7142857142857143
+T217,Optimizing payment options for global customers,Bob,High,T41,2025-02-11,2025-02-21,10,2025-02-22,1,10,11,0.9090909090909091,0.8333333333333334
+T218,Partnering with local vendors for regional support,Charlie,Low,T45,2025-02-26,2025-03-07,9,2025-03-09,2,9,11,0.9,0.75
+T219,Ensuring compliance with country-specific regulations,Charlie,Low,T22,2025-01-21,2025-01-24,3,2025-01-25,1,3,4,0.75,0.6
+T220,Adapting product pricing for different economies,Charlie,Medium,T99,2025-02-27,2025-02-28,1,2025-02-28,0,1,1,0.5,0.5
+T221,Ensuring product sustainability in resource utilization,David,Medium,T12,2025-03-19,2025-03-20,1,2025-03-24,4,1,5,0.5,0.16666666666666666
+T222,Conducting ethical reviews of AI-driven features,Bob,Low,T81,2025-03-03,2025-03-08,5,2025-03-05,-3,5,2,0.8333333333333334,1.6666666666666667
+T223,Designing eco-friendly product strategies,Bob,High,T43,2025-03-04,2025-03-11,7,2025-03-14,3,7,10,0.875,0.6363636363636364
+T224,Promoting inclusivity in product accessibility,Alice,Low,T40,2025-03-19,2025-03-26,7,2025-03-27,1,7,8,0.875,0.7777777777777778
+T225,Implementing privacy-first product practices,Eve,Low,No Dependency,2025-02-27,2025-03-08,9,2025-03-08,0,9,9,0.9,0.9
+T226,Avoiding dark patterns in product design,Alice,Low,T75,2025-02-11,2025-02-12,1,2025-02-15,3,1,4,0.5,0.2
+T227,Ensuring ethical data collection practices,Bob,Medium,T34,2025-03-06,2025-03-11,5,2025-03-12,1,5,6,0.8333333333333334,0.7142857142857143
+T228,Balancing user needs with business objectives ethically,David,High,T99,2025-02-15,2025-02-19,4,2025-02-19,0,4,4,0.8,0.8
+T229,Complying with environmental regulations for digital products,Eve,Medium,T12,2025-02-19,2025-02-20,1,2025-02-22,2,1,3,0.5,0.25
+T230,Promoting responsible AI use within the product,Bob,High,T17,2025-02-16,2025-02-26,10,2025-02-28,2,10,12,0.9090909090909091,0.7692307692307693
+T231,Running usability tests on new product features,Eve,High,T54,2025-03-06,2025-03-09,3,2025-03-13,4,3,7,0.75,0.375
+T232,Conducting A/B testing for different user interfaces,Alice,Medium,T46,2025-01-22,2025-01-31,9,2025-01-28,-3,9,6,0.9,1.2857142857142858
+T233,Iterating on product design based on test results,Eve,Low,T5,2025-03-13,2025-03-17,4,2025-03-16,-1,4,3,0.8,1.0
+T234,Implementing feedback loops for continuous improvements,Charlie,Low,T29,2025-01-24,2025-01-29,5,2025-02-03,5,5,10,0.8333333333333334,0.45454545454545453
+T235,Experimenting with feature placement for better engagement,Eve,Low,T43,2025-03-10,2025-03-11,1,2025-03-10,-1,1,0,0.5,1.0
+T236,Optimizing conversion funnels through incremental changes,Alice,High,T89,2025-03-11,2025-03-14,3,2025-03-14,0,3,3,0.75,0.75
+T237,Analyzing customer complaints to refine product features,Bob,High,T65,2025-03-19,2025-03-26,7,2025-03-31,5,7,12,0.875,0.5384615384615384
+T238,Testing micro-interactions for enhanced user experience,Eve,High,T65,2025-03-04,2025-03-05,1,2025-03-09,4,1,5,0.5,0.16666666666666666
+T239,Refining onboarding flows to improve user retention,Eve,Low,T13,2025-02-12,2025-02-14,2,2025-02-19,5,2,7,0.6666666666666666,0.25
+T240,Measuring the impact of small UX changes on user engagement,David,Low,T79,2025-01-24,2025-02-02,9,2025-02-07,5,9,14,0.9,0.6
+T241,Conducting pricing experiments to maximize revenue,David,High,T65,2025-02-19,2025-02-24,5,2025-02-21,-3,5,2,0.8333333333333334,1.6666666666666667
+T242,Analyzing competitor pricing models for optimization,David,Medium,T84,2025-02-26,2025-03-01,3,2025-03-02,1,3,4,0.75,0.6
+T243,Refining subscription plans based on user behavior,Eve,Medium,T20,2025-02-02,2025-02-09,7,2025-02-06,-3,7,4,0.875,1.4
+T244,Experimenting with freemium vs. premium feature sets,David,Low,T4,2025-02-09,2025-02-14,5,2025-02-15,1,5,6,0.8333333333333334,0.7142857142857143
+T245,Optimizing trial period lengths for better conversions,Eve,High,T89,2025-02-15,2025-02-20,5,2025-02-24,4,5,9,0.8333333333333334,0.5
+T246,Implementing dynamic pricing strategies,Charlie,Medium,T4,2025-03-17,2025-03-18,1,2025-03-23,5,1,6,0.5,0.14285714285714285
+T247,Testing different discount strategies to drive adoption,Charlie,Low,T22,2025-02-05,2025-02-10,5,2025-02-08,-2,5,3,0.8333333333333334,1.25
+T248,Evaluating the impact of bundling features in pricing,David,High,T38,2025-03-03,2025-03-05,2,2025-03-07,2,2,4,0.6666666666666666,0.4
+T249,Monitoring user reactions to price changes,Bob,High,T3,2025-01-24,2025-01-25,1,2025-01-22,-3,1,-2,0.5,-1.0
+T250,Aligning pricing strategies with business goals,Charlie,Medium,T43,2025-01-19,2025-01-26,7,2025-01-27,1,7,8,0.875,0.7777777777777778
+T251,Testing viral referral incentives for customer acquisition,Alice,Medium,T29,2025-02-23,2025-02-25,2,2025-02-24,-1,2,1,0.6666666666666666,1.0
+T252,Optimizing social sharing features within the product,David,Low,T65,2025-02-07,2025-02-15,8,2025-02-18,3,8,11,0.8888888888888888,0.6666666666666666
+T253,Implementing user-generated content strategies,Bob,High,T45,2025-03-19,2025-03-23,4,2025-03-24,1,4,5,0.8,0.6666666666666666
+T254,Leveraging influencer partnerships for product promotion,Charlie,High,T89,2025-02-19,2025-02-20,1,2025-02-20,0,1,1,0.5,0.5
+T255,Analyzing growth loops for product virality,Eve,High,T20,2025-01-24,2025-01-31,7,2025-02-02,2,7,9,0.875,0.7
+T256,Encouraging word-of-mouth marketing through engagement,Bob,High,T2,2025-02-21,2025-03-02,9,2025-03-02,0,9,9,0.9,0.9
+T257,Running paid advertising tests for user acquisition,Bob,Low,T38,2025-02-14,2025-02-19,5,2025-02-20,1,5,6,0.8333333333333334,0.7142857142857143
+T258,Enhancing onboarding experiences for organic growth,David,Medium,T62,2025-01-28,2025-01-30,2,2025-02-01,2,2,4,0.6666666666666666,0.4
+T259,Experimenting with gamification elements for retention,Charlie,High,T65,2025-01-20,2025-01-29,9,2025-02-01,3,9,12,0.9,0.6923076923076923
+T260,Measuring the effectiveness of growth hacking experiments,David,High,T71,2025-03-04,2025-03-09,5,2025-03-12,3,5,8,0.8333333333333334,0.5555555555555556
+T261,Ensuring smooth app performance across iOS and Android,Charlie,Low,T91,2025-03-18,2025-03-22,4,2025-03-23,1,4,5,0.8,0.6666666666666666
+T262,Monitoring app store ratings and responding to feedback,Alice,High,T41,2025-03-04,2025-03-08,4,2025-03-13,5,4,9,0.8,0.4
+T263,A/B testing push notification effectiveness,Alice,Medium,T54,2025-02-11,2025-02-21,10,2025-02-25,4,10,14,0.9090909090909091,0.6666666666666666
+T264,Optimizing mobile user interface for small screens,David,Medium,T13,2025-02-24,2025-03-03,7,2025-03-01,-2,7,5,0.875,1.1666666666666667
+T265,Implementing mobile-specific onboarding flows,Charlie,High,T40,2025-02-15,2025-02-21,6,2025-02-24,3,6,9,0.8571428571428571,0.6
+T266,Analyzing app download trends and user retention,Eve,Medium,T61,2025-03-11,2025-03-13,2,2025-03-13,0,2,2,0.6666666666666666,0.6666666666666666
+T267,Addressing app crashes and performance issues,Alice,Medium,T39,2025-01-27,2025-01-28,1,2025-01-30,2,1,3,0.5,0.25
+T268,Improving app store listing for better visibility,David,Medium,T75,2025-03-06,2025-03-15,9,2025-03-17,2,9,11,0.9,0.75
+T269,Localizing mobile content for different markets,Alice,High,T53,2025-02-09,2025-02-10,1,2025-02-10,0,1,1,0.5,0.5
+T270,Optimizing in-app purchases for revenue growth,Charlie,Low,T12,2025-03-11,2025-03-18,7,2025-03-18,0,7,7,0.875,0.875
+T271,Customizing product features for enterprise clients,Charlie,High,T43,2025-03-08,2025-03-15,7,2025-03-19,4,7,11,0.875,0.5833333333333334
+T272,Conducting enterprise user research sessions,Charlie,Medium,T68,2025-03-12,2025-03-13,1,2025-03-18,5,1,6,0.5,0.14285714285714285
+T273,Aligning product roadmap with enterprise needs,Bob,Medium,T2,2025-02-01,2025-02-04,3,2025-02-02,-2,3,1,0.75,1.5
+T274,Managing multi-tenant architecture requirements,Alice,Medium,T79,2025-03-18,2025-03-26,8,2025-03-24,-2,8,6,0.8888888888888888,1.1428571428571428
+T275,Ensuring data security compliance for enterprise customers,Charlie,High,T53,2025-02-07,2025-02-14,7,2025-02-15,1,7,8,0.875,0.7777777777777778
+T276,Negotiating contract terms for enterprise product sales,Charlie,High,T71,2025-03-15,2025-03-23,8,2025-03-28,5,8,13,0.8888888888888888,0.5714285714285714
+T277,Implementing role-based access control in the product,Eve,Low,T20,2025-02-12,2025-02-14,2,2025-02-18,4,2,6,0.6666666666666666,0.2857142857142857
+T278,Addressing integration challenges for enterprise customers,Bob,Medium,T45,2025-03-14,2025-03-22,8,2025-03-26,4,8,12,0.8888888888888888,0.6153846153846154
+T279,Providing dedicated support for high-value enterprise users,Bob,Medium,T38,2025-02-17,2025-02-26,9,2025-02-26,0,9,9,0.9,0.9
+T280,Managing product scalability for large businesses,Charlie,Medium,T68,2025-01-20,2025-01-23,3,2025-01-26,3,3,6,0.75,0.42857142857142855
+T281,Optimizing checkout flows for better conversions,David,Low,T61,2025-03-08,2025-03-15,7,2025-03-19,4,7,11,0.875,0.5833333333333334
+T282,Implementing AI-powered product recommendations,Charlie,High,T34,2025-02-04,2025-02-14,10,2025-02-19,5,10,15,0.9090909090909091,0.625
+T283,Improving search functionality for product discovery,Charlie,Medium,T12,2025-02-17,2025-02-25,8,2025-02-23,-2,8,6,0.8888888888888888,1.1428571428571428
+T284,Enhancing product listings with better descriptions,Charlie,Medium,T84,2025-01-22,2025-01-31,9,2025-01-30,-1,9,8,0.9,1.0
+T285,Testing different payment gateway options,Charlie,Low,T79,2025-03-10,2025-03-17,7,2025-03-14,-3,7,4,0.875,1.4
+T286,Reducing cart abandonment through retargeting strategies,Eve,Medium,T13,2025-01-24,2025-01-26,2,2025-01-25,-1,2,1,0.6666666666666666,1.0
+T287,Improving delivery tracking features for better transparency,Eve,Low,T43,2025-02-02,2025-02-05,3,2025-02-05,0,3,3,0.75,0.75
+T288,Implementing loyalty programs for repeat purchases,Alice,High,T5,2025-03-14,2025-03-22,8,2025-03-21,-1,8,7,0.8888888888888888,1.0
+T289,Streamlining vendor onboarding for marketplace expansion,Eve,High,T3,2025-03-02,2025-03-07,5,2025-03-12,5,5,10,0.8333333333333334,0.45454545454545453
+T290,Monitoring fraud prevention mechanisms in transactions,Charlie,High,T46,2025-01-23,2025-01-30,7,2025-02-04,5,7,12,0.875,0.5384615384615384
+T291,Enhancing subscription management features,Bob,High,T84,2025-01-30,2025-02-09,10,2025-02-12,3,10,13,0.9090909090909091,0.7142857142857143
+T292,Implementing role-based permissions for enterprise users,Bob,Medium,T62,2025-01-29,2025-02-03,5,2025-02-03,0,5,5,0.8333333333333334,0.8333333333333334
+T293,Tracking monthly recurring revenue (MRR) growth,Charlie,Medium,T34,2025-02-11,2025-02-13,2,2025-02-10,-3,2,-1,0.6666666666666666,inf
+T294,Managing API versioning for SaaS integrations,Charlie,Medium,T34,2025-02-26,2025-02-27,1,2025-03-04,5,1,6,0.5,0.14285714285714285
+T295,Conducting security audits for cloud-based applications,Charlie,Low,T25,2025-01-23,2025-01-30,7,2025-01-30,0,7,7,0.875,0.875
+T296,Analyzing churn rate for SaaS retention improvement,Eve,Low,T61,2025-02-04,2025-02-14,10,2025-02-18,4,10,14,0.9090909090909091,0.6666666666666666
+T297,Offering self-service onboarding for SaaS users,Bob,Low,T65,2025-02-08,2025-02-10,2,2025-02-12,2,2,4,0.6666666666666666,0.4
+T298,Scaling SaaS infrastructure for growing user base,Eve,Medium,T91,2025-02-21,2025-02-22,1,2025-02-27,5,1,6,0.5,0.14285714285714285
+T299,Implementing usage-based billing for flexible pricing,Bob,High,T84,2025-01-30,2025-02-06,7,2025-02-07,1,7,8,0.875,0.7777777777777778
+T300,Managing customer success strategies for long-term retention,David,Medium,T43,2025-02-05,2025-02-07,2,2025-02-08,1,2,3,0.6666666666666666,0.5
+T301,Coordinating with hardware manufacturers on production timelines,Alice,High,T83,2025-01-23,2025-02-02,10,2025-01-31,-2,10,8,0.9090909090909091,1.1111111111111112
+T302,Ensuring seamless integration between hardware and software,Eve,Low,T65,2025-01-19,2025-01-21,2,2025-01-24,3,2,5,0.6666666666666666,0.3333333333333333
+T303,Testing IoT device connectivity with cloud platforms,David,Low,T40,2025-01-23,2025-01-30,7,2025-01-30,0,7,7,0.875,0.875
+T304,Optimizing power consumption in IoT devices,Eve,Low,T4,2025-02-07,2025-02-17,10,2025-02-14,-3,10,7,0.9090909090909091,1.25
+T305,Addressing firmware update challenges in connected products,Alice,Low,T22,2025-02-19,2025-02-25,6,2025-02-28,3,6,9,0.8571428571428571,0.6
+T306,Ensuring regulatory compliance for hardware devices,Bob,Low,T46,2025-02-11,2025-02-14,3,2025-02-12,-2,3,1,0.75,1.5
+T307,Conducting field tests on IoT performance under different conditions,David,High,T75,2025-02-04,2025-02-07,3,2025-02-06,-1,3,2,0.75,1.0
+T308,Managing supply chain logistics for hardware components,Charlie,Medium,T39,2025-02-02,2025-02-08,6,2025-02-10,2,6,8,0.8571428571428571,0.6666666666666666
+T309,Optimizing user experience for hardware-software interaction,Charlie,Low,T4,2025-03-09,2025-03-17,8,2025-03-19,2,8,10,0.8888888888888888,0.7272727272727273
+T310,Tracking sensor accuracy for real-time data processing,Charlie,High,T45,2025-03-16,2025-03-21,5,2025-03-19,-2,5,3,0.8333333333333334,1.25
+T311,Ensuring compliance with data protection regulations,Bob,Low,T41,2025-03-19,2025-03-23,4,2025-03-25,2,4,6,0.8,0.5714285714285714
+T312,Implementing end-to-end encryption for user data,Charlie,Low,T89,2025-03-11,2025-03-17,6,2025-03-15,-2,6,4,0.8571428571428571,1.2
+T313,Enhancing authentication mechanisms for better security,Charlie,High,T46,2025-01-20,2025-01-26,6,2025-01-27,1,6,7,0.8571428571428571,0.75
+T314,Conducting penetration testing to identify vulnerabilities,David,Low,T53,2025-03-16,2025-03-22,6,2025-03-20,-2,6,4,0.8571428571428571,1.2
+T315,Addressing data breach risks through proactive measures,Alice,High,T47,2025-02-01,2025-02-02,1,2025-02-07,5,1,6,0.5,0.14285714285714285
+T316,Improving product security without compromising usability,Eve,Medium,T91,2025-02-27,2025-03-06,7,2025-03-08,2,7,9,0.875,0.7
+T317,Implementing two-factor authentication (2FA) options,David,Low,T39,2025-01-24,2025-01-25,1,2025-01-22,-3,1,-2,0.5,-1.0
+T318,Managing consent preferences for personalized features,Eve,Medium,T81,2025-03-05,2025-03-15,10,2025-03-15,0,10,10,0.9090909090909091,0.9090909090909091
+T319,Monitoring security updates across different platforms,Bob,Medium,T99,2025-01-24,2025-02-03,10,2025-02-02,-1,10,9,0.9090909090909091,1.0
+T320,Educating users on cybersecurity best practices,Charlie,High,T40,2025-02-10,2025-02-16,6,2025-02-13,-3,6,3,0.8571428571428571,1.5
+T321,Designing conversational AI experiences for chatbots,Alice,Low,T75,2025-03-12,2025-03-16,4,2025-03-13,-3,4,1,0.8,2.0
+T322,Training NLP models for better user interactions,Eve,High,T38,2025-03-01,2025-03-05,4,2025-03-07,2,4,6,0.8,0.5714285714285714
+T323,Enhancing speech recognition accuracy in voice interfaces,Charlie,Medium,T71,2025-02-21,2025-02-26,5,2025-02-26,0,5,5,0.8333333333333334,0.8333333333333334
+T324,Implementing AI-driven customer support automation,Bob,Low,T29,2025-03-07,2025-03-13,6,2025-03-18,5,6,11,0.8571428571428571,0.5
+T325,Monitoring chatbot response accuracy and improvement areas,Alice,Medium,T48,2025-03-14,2025-03-20,6,2025-03-23,3,6,9,0.8571428571428571,0.6
+T326,Testing different voice assistant integrations,Eve,Medium,T4,2025-03-08,2025-03-17,9,2025-03-14,-3,9,6,0.9,1.2857142857142858
+T327,Personalizing chatbot responses using AI models,Eve,Low,T3,2025-02-05,2025-02-09,4,2025-02-13,4,4,8,0.8,0.4444444444444444
+T328,Ensuring accessibility in voice-based interactions,David,Medium,T43,2025-01-28,2025-02-07,10,2025-02-10,3,10,13,0.9090909090909091,0.7142857142857143
+T329,Experimenting with different chatbot personalities,Bob,Medium,T20,2025-02-04,2025-02-06,2,2025-02-08,2,2,4,0.6666666666666666,0.4
+T330,Reducing false positives in AI-driven interactions,Alice,Low,T65,2025-02-19,2025-02-22,3,2025-02-25,3,3,6,0.75,0.42857142857142855
+T331,Managing blockchain-based transaction systems,Eve,Low,T47,2025-02-04,2025-02-10,6,2025-02-14,4,6,10,0.8571428571428571,0.5454545454545454
+T332,Exploring decentralized identity solutions,Eve,Medium,T81,2025-01-21,2025-01-26,5,2025-01-29,3,5,8,0.8333333333333334,0.5555555555555556
+T333,Implementing smart contracts for automation,Charlie,High,T20,2025-01-24,2025-01-31,7,2025-01-31,0,7,7,0.875,0.875
+T334,Ensuring compliance with crypto regulations,Bob,Low,No Dependency,2025-02-01,2025-02-11,10,2025-02-12,1,10,11,0.9090909090909091,0.8333333333333334
+T335,Designing tokenomics models for blockchain applications,Alice,Low,T91,2025-01-31,2025-02-04,4,2025-02-03,-1,4,3,0.8,1.0
+T336,Improving blockchain scalability for mainstream adoption,Alice,High,T29,2025-01-29,2025-02-02,4,2025-02-02,0,4,4,0.8,0.8
+T337,Testing different consensus mechanisms for security,Charlie,Low,T40,2025-02-28,2025-03-02,2,2025-03-07,5,2,7,0.6666666666666666,0.25
+T338,Managing risks in decentralized finance (DeFi) products,Eve,High,T79,2025-03-19,2025-03-23,4,2025-03-25,2,4,6,0.8,0.5714285714285714
+T339,Educating users on blockchain-based features,Bob,High,T30,2025-02-25,2025-03-02,5,2025-02-27,-3,5,2,0.8333333333333334,1.6666666666666667
+T340,Monitoring NFT marketplace growth and adoption,Charlie,Low,T17,2025-03-15,2025-03-21,6,2025-03-24,3,6,9,0.8571428571428571,0.6
+T341,Exploring metaverse applications in product experiences,Bob,Low,T75,2025-02-26,2025-03-07,9,2025-03-08,1,9,10,0.9,0.8181818181818182
+T342,Integrating AI for hyper-personalization in products,Charlie,High,T62,2025-03-06,2025-03-14,8,2025-03-16,2,8,10,0.8888888888888888,0.7272727272727273
+T343,Investigating quantum computing use cases in product security,Bob,Low,No Dependency,2025-01-29,2025-02-06,8,2025-02-04,-2,8,6,0.8888888888888888,1.1428571428571428
+T344,Enhancing spatial computing for AR applications,Eve,Low,T83,2025-02-06,2025-02-11,5,2025-02-13,2,5,7,0.8333333333333334,0.625
+T345,Managing digital twin implementations for real-world simulations,Bob,High,T61,2025-03-13,2025-03-16,3,2025-03-17,1,3,4,0.75,0.6
+T346,Leveraging AI ethics frameworks in product decisions,Charlie,High,T65,2025-02-22,2025-02-24,2,2025-02-25,1,2,3,0.6666666666666666,0.5
+T347,Evaluating the potential of brain-computer interfaces (BCIs),Alice,Medium,T81,2025-02-19,2025-02-23,4,2025-02-26,3,4,7,0.8,0.5
+T348,Investigating self-learning AI models for automation,David,Low,T78,2025-02-14,2025-02-19,5,2025-02-20,1,5,6,0.8333333333333334,0.7142857142857143
+T349,Testing new battery technologies for IoT devices,David,Medium,T53,2025-02-12,2025-02-18,6,2025-02-19,1,6,7,0.8571428571428571,0.75
+T350,Exploring edge computing for low-latency applications,Charlie,High,T83,2025-02-04,2025-02-13,9,2025-02-17,4,9,13,0.9,0.6428571428571429
+T351,Conducting annual product strategy review meetings,David,Medium,T29,2025-02-21,2025-03-01,8,2025-03-04,3,8,11,0.8888888888888888,0.6666666666666666
+T352,Presenting product performance to the leadership team,David,High,T65,2025-02-16,2025-02-19,3,2025-02-21,2,3,5,0.75,0.5
+T353,Refining feature prioritization frameworks,Eve,Medium,T34,2025-02-06,2025-02-14,8,2025-02-17,3,8,11,0.8888888888888888,0.6666666666666666
+T354,Reassessing business goals based on product analytics,Alice,High,T68,2025-01-20,2025-01-30,10,2025-01-28,-2,10,8,0.9090909090909091,1.1111111111111112
+T355,Reviewing technical debt and planning refactoring efforts,David,Medium,T45,2025-03-15,2025-03-25,10,2025-03-30,5,10,15,0.9090909090909091,0.625
+T356,Aligning product initiatives with financial targets,Charlie,High,T17,2025-03-05,2025-03-06,1,2025-03-07,1,1,2,0.5,0.3333333333333333
+T357,Benchmarking product performance against industry leaders,David,High,T71,2025-02-10,2025-02-15,5,2025-02-14,-1,5,4,0.8333333333333334,1.0
+T358,Testing different monetization models for sustainability,Eve,Medium,T11,2025-01-26,2025-02-05,10,2025-02-03,-2,10,8,0.9090909090909091,1.1111111111111112
+T359,Preparing a long-term vision document for the product,Charlie,Medium,T79,2025-02-02,2025-02-10,8,2025-02-13,3,8,11,0.8888888888888888,0.6666666666666666
+T360,Conducting post-mortem reviews on failed initiatives,Alice,Low,T43,2025-02-18,2025-02-28,10,2025-02-25,-3,10,7,0.9090909090909091,1.25
+T361,Managing crisis communication during major product failures,David,Medium,T62,2025-03-01,2025-03-04,3,2025-03-04,0,3,3,0.75,0.75
+T362,Refining localization strategies for multilingual users,David,High,T5,2025-02-06,2025-02-12,6,2025-02-09,-3,6,3,0.8571428571428571,1.5
+T363,Implementing dark mode UI for improved accessibility,Charlie,High,T11,2025-03-09,2025-03-13,4,2025-03-12,-1,4,3,0.8,1.0
+T364,Managing stakeholder expectations on delivery timelines,Bob,Medium,T25,2025-02-17,2025-02-27,10,2025-02-26,-1,10,9,0.9090909090909091,1.0
+T365,Optimizing touchpoints in omnichannel customer journeys,Alice,Medium,T65,2025-02-04,2025-02-12,8,2025-02-15,3,8,11,0.8888888888888888,0.6666666666666666
+T366,Conducting competitor teardown analysis,Eve,High,T68,2025-01-26,2025-02-03,8,2025-02-06,3,8,11,0.8888888888888888,0.6666666666666666
+T367,Enhancing user adoption through educational content,Alice,Medium,T17,2025-02-12,2025-02-13,1,2025-02-12,-1,1,0,0.5,1.0
+T368,Monitoring the impact of design system changes,David,Medium,T83,2025-02-25,2025-03-01,4,2025-03-03,2,4,6,0.8,0.5714285714285714
+T369,Creating a framework for feature validation,David,High,T81,2025-01-21,2025-01-27,6,2025-01-30,3,6,9,0.8571428571428571,0.6
+T370,Documenting case studies for successful product decisions,Charlie,High,T5,2025-03-08,2025-03-14,6,2025-03-16,2,6,8,0.8571428571428571,0.6666666666666666
+T371,Reviewing and refining the product roadmap based on market trends,David,High,T60,2025-01-22,2025-01-23,1,2025-01-27,4,1,5,0.5,0.16666666666666666
+T372,Aligning quarterly product goals with company objectives,Bob,High,T81,2025-03-17,2025-03-19,2,2025-03-17,-2,2,0,0.6666666666666666,2.0
+T373,Communicating roadmap changes to stakeholders,David,High,T4,2025-01-24,2025-01-29,5,2025-01-28,-1,5,4,0.8333333333333334,1.0
+T374,Balancing short-term and long-term product priorities,David,High,T79,2025-01-23,2025-01-31,8,2025-02-03,3,8,11,0.8888888888888888,0.6666666666666666
+T375,Evaluating trade-offs between feature development and technical debt,David,Medium,T78,2025-01-21,2025-01-31,10,2025-02-05,5,10,15,0.9090909090909091,0.625
+T376,Creating a risk mitigation plan for roadmap execution,Charlie,High,No Dependency,2025-02-26,2025-03-06,8,2025-03-08,2,8,10,0.8888888888888888,0.7272727272727273
+T377,Setting key performance indicators (KPIs) for roadmap success,David,High,T46,2025-03-14,2025-03-16,2,2025-03-13,-3,2,-1,0.6666666666666666,inf
+T378,Mapping product features to business value,Bob,Medium,T22,2025-02-01,2025-02-07,6,2025-02-10,3,6,9,0.8571428571428571,0.6
+T379,Analyzing roadmap dependencies across different teams,Alice,Medium,T22,2025-02-07,2025-02-11,4,2025-02-11,0,4,4,0.8,0.8
+T380,Communicating strategic pivots to internal teams,Alice,High,T84,2025-01-25,2025-02-01,7,2025-01-31,-1,7,6,0.875,1.0
+T381,Preparing executive briefings on product performance,Bob,Medium,T47,2025-01-26,2025-02-01,6,2025-02-03,2,6,8,0.8571428571428571,0.6666666666666666
+T382,Presenting key product metrics in leadership meetings,David,Medium,T25,2025-02-10,2025-02-18,8,2025-02-20,2,8,10,0.8888888888888888,0.7272727272727273
+T383,Aligning C-suite expectations with product capabilities,Bob,High,T22,2025-03-09,2025-03-16,7,2025-03-13,-3,7,4,0.875,1.4
+T384,Handling cross-functional conflicts in product decisions,Charlie,Low,T13,2025-03-08,2025-03-18,10,2025-03-17,-1,10,9,0.9090909090909091,1.0
+T385,Engaging with external investors on product vision,David,High,T13,2025-02-24,2025-03-01,5,2025-03-04,3,5,8,0.8333333333333334,0.5555555555555556
+T386,Coordinating interdepartmental collaboration for product launches,David,High,T62,2025-01-26,2025-02-03,8,2025-02-01,-2,8,6,0.8888888888888888,1.1428571428571428
+T387,Documenting stakeholder feedback for strategic alignment,Bob,Medium,T71,2025-01-25,2025-01-31,6,2025-02-01,1,6,7,0.8571428571428571,0.75
+T388,Ensuring product decisions align with company vision,Alice,High,T54,2025-03-02,2025-03-11,9,2025-03-12,1,9,10,0.9,0.8181818181818182
+T389,Negotiating resource allocation with leadership teams,David,Low,T60,2025-03-15,2025-03-24,9,2025-03-29,5,9,14,0.9,0.6
+T390,Advocating for product investments in board meetings,Alice,Low,T25,2025-03-07,2025-03-12,5,2025-03-10,-2,5,3,0.8333333333333334,1.25
+T391,Conducting competitor SWOT analysis for strategic insights,Bob,Medium,T79,2025-03-13,2025-03-20,7,2025-03-21,1,7,8,0.875,0.7777777777777778
+T392,Tracking competitor feature releases and updates,Alice,Medium,T78,2025-02-04,2025-02-09,5,2025-02-11,2,5,7,0.8333333333333334,0.625
+T393,Identifying gaps in the market for new product opportunities,Eve,Medium,T40,2025-02-16,2025-02-25,9,2025-02-24,-1,9,8,0.9,1.0
+T394,Analyzing pricing models of direct competitors,Bob,Low,T29,2025-01-20,2025-01-22,2,2025-01-22,0,2,2,0.6666666666666666,0.6666666666666666
+T395,Benchmarking product performance against industry leaders,David,High,T84,2025-02-22,2025-03-03,9,2025-03-04,1,9,10,0.9,0.8181818181818182
+T396,Investigating market trends to anticipate customer needs,Charlie,High,T61,2025-03-11,2025-03-14,3,2025-03-14,0,3,3,0.75,0.75
+T397,Differentiating product value propositions from competitors,Bob,High,T40,2025-03-12,2025-03-18,6,2025-03-16,-2,6,4,0.8571428571428571,1.2
+T398,Conducting sentiment analysis on competitor reviews,Eve,Medium,T45,2025-01-28,2025-02-05,8,2025-02-02,-3,8,5,0.8888888888888888,1.3333333333333333
+T399,Identifying opportunities for strategic partnerships,David,Medium,T46,2025-03-17,2025-03-24,7,2025-03-21,-3,7,4,0.875,1.4
+T400,Refining go-to-market strategies based on competitor insights,Charlie,Medium,T30,2025-01-22,2025-02-01,10,2025-01-29,-3,10,7,0.9090909090909091,1.25
+T401,Defining product positioning for a new feature launch,Eve,Medium,T71,2025-02-23,2025-03-01,6,2025-03-01,0,6,6,0.8571428571428571,0.8571428571428571
+T402,Preparing launch documentation for internal teams,Charlie,Low,T81,2025-03-02,2025-03-05,3,2025-03-03,-2,3,1,0.75,1.5
+T403,Collaborating with marketing on launch messaging,Bob,High,T65,2025-03-05,2025-03-07,2,2025-03-06,-1,2,1,0.6666666666666666,1.0
+T404,Aligning sales enablement materials with product updates,Charlie,Medium,T39,2025-03-08,2025-03-17,9,2025-03-20,3,9,12,0.9,0.6923076923076923
+T405,Conducting pre-launch beta testing with key customers,Eve,Medium,T68,2025-03-03,2025-03-06,3,2025-03-04,-2,3,1,0.75,1.5
+T406,Setting post-launch success metrics for feature adoption,Charlie,Medium,T78,2025-02-14,2025-02-23,9,2025-02-21,-2,9,7,0.9,1.125
+T407,Analyzing launch feedback for continuous improvements,Bob,High,T2,2025-03-12,2025-03-15,3,2025-03-12,-3,3,0,0.75,3.0
+T408,Training support teams on new product features,Eve,Medium,T62,2025-02-03,2025-02-09,6,2025-02-07,-2,6,4,0.8571428571428571,1.2
+T409,Managing cross-functional launch coordination,David,Low,T48,2025-03-12,2025-03-18,6,2025-03-18,0,6,6,0.8571428571428571,0.8571428571428571
+T410,Hosting webinars to educate users about new updates,Bob,Medium,T45,2025-02-13,2025-02-18,5,2025-02-18,0,5,5,0.8333333333333334,0.8333333333333334
+T411,Implementing onboarding improvements for new users,Charlie,Medium,T68,2025-02-17,2025-02-26,9,2025-03-03,5,9,14,0.9,0.6
+T412,Analyzing product usage trends for engagement strategies,Eve,Low,T81,2025-02-20,2025-02-26,6,2025-03-02,4,6,10,0.8571428571428571,0.5454545454545454
+T413,Identifying friction points in user adoption flow,David,High,T83,2025-03-01,2025-03-10,9,2025-03-10,0,9,9,0.9,0.9
+T414,Collaborating with customer support to reduce churn,Bob,Low,T53,2025-02-10,2025-02-15,5,2025-02-13,-2,5,3,0.8333333333333334,1.25
+T415,Implementing in-app tooltips for product education,David,Low,T65,2025-02-02,2025-02-04,2,2025-02-03,-1,2,1,0.6666666666666666,1.0
+T416,Running cohort analysis to improve user retention,Bob,High,T13,2025-02-15,2025-02-18,3,2025-02-17,-1,3,2,0.75,1.0
+T417,Personalizing user experiences based on behavior data,Eve,Low,No Dependency,2025-02-02,2025-02-08,6,2025-02-06,-2,6,4,0.8571428571428571,1.2
+T418,Designing customer education programs for advanced features,Eve,Low,T62,2025-03-12,2025-03-17,5,2025-03-16,-1,5,4,0.8333333333333334,1.0
+T419,Conducting customer success interviews to refine adoption strategies,Charlie,Low,T76,2025-02-18,2025-02-19,1,2025-02-23,4,1,5,0.5,0.16666666666666666
+T420,Identifying power users to promote organic growth,Bob,High,T81,2025-02-13,2025-02-19,6,2025-02-22,3,6,9,0.8571428571428571,0.6
+T421,Defining North Star metrics for product success,Charlie,Medium,T12,2025-03-17,2025-03-22,5,2025-03-25,3,5,8,0.8333333333333334,0.5555555555555556
+T422,Tracking daily active users (DAU) and monthly active users (MAU),Bob,High,T20,2025-02-14,2025-02-24,10,2025-02-22,-2,10,8,0.9090909090909091,1.1111111111111112
+T423,Monitoring feature engagement trends over time,Eve,Low,T91,2025-03-13,2025-03-15,2,2025-03-14,-1,2,1,0.6666666666666666,1.0
+T424,Analyzing user behavior heatmaps for UI improvements,Charlie,Low,T5,2025-03-02,2025-03-10,8,2025-03-08,-2,8,6,0.8888888888888888,1.1428571428571428
+T425,Implementing event tracking for product interactions,Bob,High,T47,2025-01-31,2025-02-06,6,2025-02-10,4,6,10,0.8571428571428571,0.5454545454545454
+T426,Defining data-driven hypotheses for product decisions,Alice,Medium,T12,2025-02-18,2025-02-22,4,2025-02-20,-2,4,2,0.8,1.3333333333333333
+T427,Conducting funnel analysis for conversion optimization,Alice,Medium,T2,2025-03-14,2025-03-17,3,2025-03-18,1,3,4,0.75,0.6
+T428,Setting up dashboards for real-time product analytics,David,High,T40,2025-02-13,2025-02-16,3,2025-02-16,0,3,3,0.75,0.75
+T429,Using customer segmentation to refine product strategies,Charlie,High,T45,2025-02-15,2025-02-18,3,2025-02-22,4,3,7,0.75,0.375
+T430,Measuring feature stickiness to evaluate long-term impact,Charlie,High,T30,2025-02-27,2025-03-02,3,2025-03-07,5,3,8,0.75,0.3333333333333333
+T431,Adapting product features for multilingual support,Bob,Medium,T62,2025-02-24,2025-02-26,2,2025-03-01,3,2,5,0.6666666666666666,0.3333333333333333
+T432,Analyzing geographic trends for expansion opportunities,Eve,Medium,T53,2025-02-19,2025-02-22,3,2025-02-22,0,3,3,0.75,0.75
+T433,Ensuring compliance with regional data protection laws,David,Medium,T83,2025-02-04,2025-02-14,10,2025-02-14,0,10,10,0.9090909090909091,0.9090909090909091
+T434,Localizing user interfaces for different cultures,Charlie,Medium,T41,2025-02-07,2025-02-10,3,2025-02-08,-2,3,1,0.75,1.5
+T435,Developing pricing models tailored for new markets,Eve,High,T40,2025-01-24,2025-01-31,7,2025-01-28,-3,7,4,0.875,1.4
+T436,Optimizing infrastructure to handle global user growth,Charlie,Medium,T76,2025-03-19,2025-03-21,2,2025-03-25,4,2,6,0.6666666666666666,0.2857142857142857
+T437,Partnering with regional experts for localized insights,Charlie,Medium,T29,2025-03-10,2025-03-19,9,2025-03-21,2,9,11,0.9,0.75
+T438,Conducting user testing in international markets,David,High,T22,2025-01-29,2025-02-05,7,2025-02-08,3,7,10,0.875,0.6363636363636364
+T439,Managing currency and payment gateway integrations,Alice,High,T4,2025-02-03,2025-02-08,5,2025-02-05,-3,5,2,0.8333333333333334,1.6666666666666667
+T440,Evaluating expansion risks in emerging markets,Charlie,Low,T91,2025-03-03,2025-03-10,7,2025-03-11,1,7,8,0.875,0.7777777777777778
+T441,Conducting NPS (Net Promoter Score) surveys for customer insights,Alice,Low,T53,2025-02-28,2025-03-07,7,2025-03-09,2,7,9,0.875,0.7
+T442,Implementing feature request tracking mechanisms,Alice,High,T27,2025-02-17,2025-02-20,3,2025-02-22,2,3,5,0.75,0.5
+T443,Monitoring social media sentiment about product updates,Eve,High,T47,2025-03-03,2025-03-10,7,2025-03-14,4,7,11,0.875,0.5833333333333334
+T444,Prioritizing high-impact user feedback in roadmap planning,Alice,Medium,T38,2025-02-19,2025-02-26,7,2025-02-26,0,7,7,0.875,0.875
+T445,Responding to customer complaints with data-driven solutions,Charlie,Low,T46,2025-02-24,2025-03-06,10,2025-03-09,3,10,13,0.9090909090909091,0.7142857142857143
+T446,Running post-launch surveys to measure feature success,Charlie,Medium,T34,2025-02-25,2025-03-01,4,2025-03-03,2,4,6,0.8,0.5714285714285714
+T447,Collaborating with UX researchers on usability improvements,Eve,High,T20,2025-02-13,2025-02-23,10,2025-02-27,4,10,14,0.9090909090909091,0.6666666666666666
+T448,Creating a structured process for customer feedback analysis,Eve,Medium,T75,2025-03-16,2025-03-26,10,2025-03-23,-3,10,7,0.9090909090909091,1.25
+T449,Refining help center content based on common support queries,Charlie,High,T25,2025-02-27,2025-02-28,1,2025-02-25,-3,1,-2,0.5,-1.0
+T450,Hosting customer roundtables to gather direct feedback,Alice,Medium,T12,2025-02-11,2025-02-13,2,2025-02-15,2,2,4,0.6666666666666666,0.4
+T451,Standardizing product development workflows for efficiency,Bob,Low,No Dependency,2025-02-16,2025-02-26,10,2025-02-27,1,10,11,0.9090909090909091,0.8333333333333334
+T452,Automating repetitive product management tasks,Charlie,High,T30,2025-03-09,2025-03-11,2,2025-03-16,5,2,7,0.6666666666666666,0.25
+T453,Streamlining cross-team communication for faster decision-making,Alice,High,T46,2025-02-26,2025-03-08,10,2025-03-05,-3,10,7,0.9090909090909091,1.25
+T454,Creating best practices documentation for product managers,Eve,High,T40,2025-03-11,2025-03-21,10,2025-03-26,5,10,15,0.9090909090909091,0.625
+T455,Improving sprint planning efficiency within Agile teams,Eve,Medium,T34,2025-02-02,2025-02-11,9,2025-02-09,-2,9,7,0.9,1.125
+T456,Documenting lessons learned from previous product releases,David,Medium,T84,2025-03-02,2025-03-11,9,2025-03-10,-1,9,8,0.9,1.0
+T457,Enhancing visibility into project timelines for stakeholders,Bob,Low,No Dependency,2025-01-20,2025-01-23,3,2025-01-25,2,3,5,0.75,0.5
+T458,Reducing bottlenecks in feature development cycles,Charlie,High,T13,2025-02-15,2025-02-25,10,2025-02-23,-2,10,8,0.9090909090909091,1.1111111111111112
+T459,Ensuring smooth knowledge transfer between product teams,Alice,High,T75,2025-01-19,2025-01-27,8,2025-01-24,-3,8,5,0.8888888888888888,1.3333333333333333
+T460,Conducting retrospectives to optimize team performance,Charlie,High,T60,2025-02-27,2025-03-08,9,2025-03-11,3,9,12,0.9,0.6923076923076923
+T461,Exploring emerging technologies for product differentiation,Charlie,High,T20,2025-02-26,2025-03-08,10,2025-03-12,4,10,14,0.9090909090909091,0.6666666666666666
+T462,Developing long-term vision statements for the product,Eve,Medium,T47,2025-02-22,2025-02-23,1,2025-02-20,-3,1,-2,0.5,-1.0
+T463,Identifying disruptive trends that could impact the industry,Charlie,High,T60,2025-02-20,2025-02-26,6,2025-02-28,2,6,8,0.8571428571428571,0.6666666666666666
+T464,Evaluating potential integrations with cutting-edge tech,Bob,Medium,T20,2025-02-23,2025-03-01,6,2025-03-01,0,6,6,0.8571428571428571,0.8571428571428571
+T465,Conducting hackathons to foster innovation within teams,Eve,High,T76,2025-01-22,2025-01-31,9,2025-01-28,-3,9,6,0.9,1.2857142857142858
+T466,Exploring blockchain applications in product development,Alice,Low,T29,2025-02-14,2025-02-17,3,2025-02-17,0,3,3,0.75,0.75
+T467,Researching AI-driven personalization for user experiences,Alice,High,T3,2025-03-12,2025-03-21,9,2025-03-24,3,9,12,0.9,0.6923076923076923
+T468,Partnering with academia for research-driven innovation,David,High,T45,2025-01-25,2025-01-30,5,2025-02-01,2,5,7,0.8333333333333334,0.625
+T469,Running internal innovation challenges for new ideas,Bob,High,T11,2025-02-17,2025-02-22,5,2025-02-23,1,5,6,0.8333333333333334,0.7142857142857143
+T470,Developing proof-of-concept prototypes for future features,Charlie,Low,T20,2025-02-11,2025-02-20,9,2025-02-21,1,9,10,0.9,0.8181818181818182
+T471,Ensuring compliance with accessibility guidelines (WCAG),Bob,Medium,T5,2025-02-20,2025-02-27,7,2025-03-02,3,7,10,0.875,0.6363636363636364
+T472,Conducting legal risk assessments for new features,Alice,Low,T29,2025-03-01,2025-03-04,3,2025-03-04,0,3,3,0.75,0.75
+T473,Reviewing terms of service for feature changes,Bob,High,T20,2025-03-02,2025-03-04,2,2025-03-07,3,2,5,0.6666666666666666,0.3333333333333333
+T474,Managing GDPR and CCPA compliance in product design,David,High,T3,2025-02-06,2025-02-10,4,2025-02-13,3,4,7,0.8,0.5
+T475,Addressing intellectual property concerns in product development,Charlie,Medium,T20,2025-03-14,2025-03-23,9,2025-03-22,-1,9,8,0.9,1.0
+T476,Ensuring ethical AI practices in data-driven features,Eve,High,T46,2025-02-12,2025-02-18,6,2025-02-16,-2,6,4,0.8571428571428571,1.2
+T477,Collaborating with legal teams on user data policies,David,High,T47,2025-02-07,2025-02-16,9,2025-02-21,5,9,14,0.9,0.6
+T478,Handling compliance challenges in heavily regulated industries,Charlie,Medium,T81,2025-01-25,2025-02-02,8,2025-02-01,-1,8,7,0.8888888888888888,1.0
+T479,Implementing consent management for privacy settings,Charlie,Medium,T46,2025-03-18,2025-03-24,6,2025-03-29,5,6,11,0.8571428571428571,0.5
+T480,Managing third-party data sharing policies,David,High,T38,2025-02-25,2025-03-05,8,2025-03-10,5,8,13,0.8888888888888888,0.5714285714285714
+T481,Developing contingency plans for product outages,Bob,Low,T12,2025-01-26,2025-01-27,1,2025-01-28,1,1,2,0.5,0.3333333333333333
+T482,Creating a crisis communication strategy for major issues,Charlie,Medium,T17,2025-02-28,2025-03-08,8,2025-03-11,3,8,11,0.8888888888888888,0.6666666666666666
+T483,Preparing rollback plans for failed feature releases,Eve,Medium,T99,2025-03-09,2025-03-18,9,2025-03-15,-3,9,6,0.9,1.2857142857142858
+T484,Addressing cybersecurity threats proactively,Alice,Medium,T91,2025-03-11,2025-03-18,7,2025-03-15,-3,7,4,0.875,1.4
+T485,Managing PR challenges related to product failures,Charlie,High,No Dependency,2025-02-19,2025-02-25,6,2025-03-01,4,6,10,0.8571428571428571,0.5454545454545454
+T486,Ensuring server redundancy for high availability,Bob,Low,T81,2025-02-14,2025-02-16,2,2025-02-19,3,2,5,0.6666666666666666,0.3333333333333333
+T487,Monitoring error logs for early issue detection,Alice,Medium,T91,2025-03-12,2025-03-15,3,2025-03-19,4,3,7,0.75,0.375
+T488,Collaborating with engineering on incident response plans,Eve,Medium,T89,2025-03-18,2025-03-25,7,2025-03-30,5,7,12,0.875,0.5384615384615384
+T489,Implementing automated alerts for system failures,Alice,Medium,T68,2025-02-22,2025-03-01,7,2025-03-03,2,7,9,0.875,0.7
+T490,Conducting post-mortem analyses on major incidents,Alice,Medium,T81,2025-03-02,2025-03-09,7,2025-03-13,4,7,11,0.875,0.5833333333333334
+T491,Planning sunsetting strategies for deprecated features,Eve,Medium,T22,2025-02-20,2025-02-22,2,2025-02-19,-3,2,-1,0.6666666666666666,inf
+T492,Communicating product discontinuations to customers,David,Low,T83,2025-01-28,2025-02-02,5,2025-02-01,-1,5,4,0.8333333333333334,1.0
+T493,Migrating users to new versions with minimal disruption,Bob,High,T45,2025-02-03,2025-02-13,10,2025-02-14,1,10,11,0.9090909090909091,0.8333333333333334
+T494,Handling end-of-life transitions for legacy systems,Alice,Medium,T81,2025-01-19,2025-01-21,2,2025-01-24,3,2,5,0.6666666666666666,0.3333333333333333
+T495,Analyzing financial impacts of feature deprecation,David,Low,T11,2025-01-25,2025-02-03,9,2025-02-05,2,9,11,0.9,0.75
+T496,Developing exit strategies for underperforming products,David,Low,T78,2025-02-26,2025-03-06,8,2025-03-11,5,8,13,0.8888888888888888,0.5714285714285714
+T497,Ensuring customer satisfaction during phase-out periods,Charlie,High,T12,2025-01-29,2025-02-05,7,2025-02-09,4,7,11,0.875,0.5833333333333334
+T498,Providing long-term support for essential legacy features,Alice,Low,T71,2025-03-01,2025-03-11,10,2025-03-11,0,10,10,0.9090909090909091,0.9090909090909091
+T499,Conducting retrospective analyses on retired products,Charlie,Low,T3,2025-03-05,2025-03-14,9,2025-03-14,0,9,9,0.9,0.9
+T500,Documenting key takeaways for future product development,Alice,Low,T13,2025-02-14,2025-02-19,5,2025-02-19,0,5,5,0.8333333333333334,0.8333333333333334
+T501,Generated task 1 for dataset expansion.,David,Medium,No Dependency,2025-02-02,2025-02-11,12,2025-02-16,5,9,14,1.2,0.8
+T502,Generated task 2 for dataset expansion.,Alice,Medium,No Dependency,2025-02-03,2025-02-15,11,2025-02-14,-1,12,11,0.8461538461538461,0.9166666666666666
+T503,Generated task 3 for dataset expansion.,Eve,Medium,No Dependency,2025-03-30,2025-04-08,7,2025-04-09,1,9,10,0.7,0.6363636363636364
+T504,Generated task 4 for dataset expansion.,David,Medium,No Dependency,2025-01-19,2025-01-24,9,2025-01-23,-1,5,4,1.5,1.8
+T505,Generated task 5 for dataset expansion.,Alice,Medium,No Dependency,2025-01-15,2025-01-25,6,2025-01-28,3,10,13,0.5454545454545454,0.42857142857142855
+T506,Generated task 6 for dataset expansion.,Eve,Medium,No Dependency,2025-02-25,2025-03-07,12,2025-03-05,-2,10,8,1.0909090909090908,1.3333333333333333
+T507,Generated task 7 for dataset expansion.,Bob,High,No Dependency,2025-03-08,2025-03-15,8,2025-03-13,-2,7,5,1.0,1.3333333333333333
+T508,Generated task 8 for dataset expansion.,Alice,High,No Dependency,2025-02-09,2025-02-15,8,2025-02-14,-1,6,5,1.1428571428571428,1.3333333333333333
+T509,Generated task 9 for dataset expansion.,Charlie,High,No Dependency,2025-02-24,2025-03-07,9,2025-03-12,5,11,16,0.75,0.5294117647058824
+T510,Generated task 10 for dataset expansion.,Charlie,Medium,No Dependency,2025-03-25,2025-04-04,6,2025-04-04,0,10,10,0.5454545454545454,0.5454545454545454
+T511,Generated task 11 for dataset expansion.,David,Medium,No Dependency,2025-03-10,2025-03-16,6,2025-03-15,-1,6,5,0.8571428571428571,1.0
+T512,Generated task 12 for dataset expansion.,Alice,Medium,No Dependency,2025-02-10,2025-02-17,11,2025-02-22,5,7,12,1.375,0.8461538461538461
+T513,Generated task 13 for dataset expansion.,Bob,High,No Dependency,2025-02-22,2025-03-07,4,2025-03-07,0,13,13,0.2857142857142857,0.2857142857142857
+T514,Generated task 14 for dataset expansion.,Charlie,Medium,No Dependency,2025-01-23,2025-02-01,8,2025-02-02,1,9,10,0.8,0.7272727272727273
+T515,Generated task 15 for dataset expansion.,Bob,High,No Dependency,2025-02-01,2025-02-10,9,2025-02-13,3,9,12,0.9,0.6923076923076923
+T516,Generated task 16 for dataset expansion.,Charlie,High,No Dependency,2025-03-30,2025-04-05,9,2025-04-08,3,6,9,1.2857142857142858,0.9
+T517,Generated task 17 for dataset expansion.,Charlie,Medium,No Dependency,2025-01-13,2025-01-26,4,2025-01-25,-1,13,12,0.2857142857142857,0.3076923076923077
+T518,Generated task 18 for dataset expansion.,Charlie,High,No Dependency,2025-03-30,2025-04-10,4,2025-04-12,2,11,13,0.3333333333333333,0.2857142857142857
+T519,Generated task 19 for dataset expansion.,Charlie,Low,No Dependency,2025-03-29,2025-04-03,10,2025-04-07,4,5,9,1.6666666666666667,1.0
+T520,Generated task 20 for dataset expansion.,David,High,No Dependency,2025-01-05,2025-01-19,7,2025-01-21,2,14,16,0.4666666666666667,0.4117647058823529
+T521,Generated task 21 for dataset expansion.,Bob,Medium,No Dependency,2025-03-06,2025-03-13,6,2025-03-18,5,7,12,0.75,0.46153846153846156
+T522,Generated task 22 for dataset expansion.,Charlie,Low,No Dependency,2025-03-08,2025-03-16,5,2025-03-17,1,8,9,0.5555555555555556,0.5
+T523,Generated task 23 for dataset expansion.,Charlie,High,No Dependency,2025-02-12,2025-02-17,12,2025-02-18,1,5,6,2.0,1.7142857142857142
+T524,Generated task 24 for dataset expansion.,Bob,Medium,No Dependency,2025-01-18,2025-02-02,6,2025-02-06,4,15,19,0.375,0.3
+T525,Generated task 25 for dataset expansion.,David,Low,No Dependency,2025-01-21,2025-01-30,4,2025-01-29,-1,9,8,0.4,0.4444444444444444
+T526,Generated task 26 for dataset expansion.,Charlie,High,No Dependency,2025-03-18,2025-03-28,8,2025-03-29,1,10,11,0.7272727272727273,0.6666666666666666
+T527,Generated task 27 for dataset expansion.,Bob,Low,No Dependency,2025-02-27,2025-03-09,4,2025-03-09,0,10,10,0.36363636363636365,0.36363636363636365
+T528,Generated task 28 for dataset expansion.,David,Low,No Dependency,2025-02-17,2025-02-25,12,2025-02-23,-2,8,6,1.3333333333333333,1.7142857142857142
+T529,Generated task 29 for dataset expansion.,Alice,Medium,No Dependency,2025-02-13,2025-02-24,11,2025-02-23,-1,11,10,0.9166666666666666,1.0
+T530,Generated task 30 for dataset expansion.,Alice,Low,No Dependency,2025-03-06,2025-03-14,6,2025-03-16,2,8,10,0.6666666666666666,0.5454545454545454
+T531,Generated task 31 for dataset expansion.,David,Medium,No Dependency,2025-02-25,2025-03-02,12,2025-03-06,4,5,9,2.0,1.2
+T532,Generated task 32 for dataset expansion.,Alice,Low,No Dependency,2025-03-06,2025-03-18,7,2025-03-21,3,12,15,0.5384615384615384,0.4375
+T533,Generated task 33 for dataset expansion.,David,Medium,No Dependency,2025-03-20,2025-03-25,6,2025-03-24,-1,5,4,1.0,1.2
+T534,Generated task 34 for dataset expansion.,Alice,Medium,No Dependency,2025-02-01,2025-02-12,11,2025-02-16,4,11,15,0.9166666666666666,0.6875
+T535,Generated task 35 for dataset expansion.,David,Medium,No Dependency,2025-03-28,2025-04-12,9,2025-04-12,0,15,15,0.5625,0.5625
+T536,Generated task 36 for dataset expansion.,Charlie,High,No Dependency,2025-03-06,2025-03-18,12,2025-03-23,5,12,17,0.9230769230769231,0.6666666666666666
+T537,Generated task 37 for dataset expansion.,Eve,High,No Dependency,2025-01-21,2025-02-03,8,2025-02-07,4,13,17,0.5714285714285714,0.4444444444444444
+T538,Generated task 38 for dataset expansion.,David,High,No Dependency,2025-02-08,2025-02-18,5,2025-02-20,2,10,12,0.45454545454545453,0.38461538461538464
+T539,Generated task 39 for dataset expansion.,Bob,Medium,No Dependency,2025-01-18,2025-01-29,7,2025-02-03,5,11,16,0.5833333333333334,0.4117647058823529
+T540,Generated task 40 for dataset expansion.,David,High,No Dependency,2025-02-07,2025-02-16,6,2025-02-14,-2,9,7,0.6,0.75
+T541,Generated task 41 for dataset expansion.,David,Medium,No Dependency,2025-01-11,2025-01-21,6,2025-01-25,4,10,14,0.5454545454545454,0.4
+T542,Generated task 42 for dataset expansion.,David,Medium,No Dependency,2025-03-17,2025-03-31,6,2025-04-01,1,14,15,0.4,0.375
+T543,Generated task 43 for dataset expansion.,Charlie,Medium,No Dependency,2025-03-25,2025-04-03,12,2025-04-08,5,9,14,1.2,0.8
+T544,Generated task 44 for dataset expansion.,Bob,Medium,No Dependency,2025-03-05,2025-03-11,5,2025-03-12,1,6,7,0.7142857142857143,0.625
+T545,Generated task 45 for dataset expansion.,Charlie,Medium,No Dependency,2025-01-14,2025-01-28,4,2025-01-29,1,14,15,0.26666666666666666,0.25
+T546,Generated task 46 for dataset expansion.,Eve,Medium,No Dependency,2025-03-18,2025-03-29,12,2025-03-27,-2,11,9,1.0,1.2
+T547,Generated task 47 for dataset expansion.,Bob,Medium,No Dependency,2025-02-23,2025-03-10,12,2025-03-10,0,15,15,0.75,0.75
+T548,Generated task 48 for dataset expansion.,Eve,Medium,No Dependency,2025-03-15,2025-03-27,8,2025-03-30,3,12,15,0.6153846153846154,0.5
+T549,Generated task 49 for dataset expansion.,Eve,Medium,No Dependency,2025-01-27,2025-02-04,12,2025-02-08,4,8,12,1.3333333333333333,0.9230769230769231
+T550,Generated task 50 for dataset expansion.,Charlie,Medium,No Dependency,2025-03-18,2025-03-26,7,2025-03-31,5,8,13,0.7777777777777778,0.5
+T551,Generated task 51 for dataset expansion.,Bob,Medium,No Dependency,2025-03-31,2025-04-06,7,2025-04-10,4,6,10,1.0,0.6363636363636364
+T552,Generated task 52 for dataset expansion.,Eve,Medium,No Dependency,2025-02-04,2025-02-16,9,2025-02-17,1,12,13,0.6923076923076923,0.6428571428571429
+T553,Generated task 53 for dataset expansion.,Bob,Medium,No Dependency,2025-03-03,2025-03-10,9,2025-03-11,1,7,8,1.125,1.0
+T554,Generated task 54 for dataset expansion.,David,Low,No Dependency,2025-01-23,2025-02-05,12,2025-02-04,-1,13,12,0.8571428571428571,0.9230769230769231
+T555,Generated task 55 for dataset expansion.,Bob,High,No Dependency,2025-02-19,2025-03-02,7,2025-03-03,1,11,12,0.5833333333333334,0.5384615384615384
+T556,Generated task 56 for dataset expansion.,Alice,Medium,No Dependency,2025-02-23,2025-03-10,6,2025-03-10,0,15,15,0.375,0.375
+T557,Generated task 57 for dataset expansion.,Charlie,Medium,No Dependency,2025-03-08,2025-03-20,12,2025-03-19,-1,12,11,0.9230769230769231,1.0
+T558,Generated task 58 for dataset expansion.,Charlie,High,No Dependency,2025-02-16,2025-02-26,12,2025-02-25,-1,10,9,1.0909090909090908,1.2
+T559,Generated task 59 for dataset expansion.,David,High,No Dependency,2025-01-25,2025-01-31,12,2025-02-03,3,6,9,1.7142857142857142,1.2
+T560,Generated task 60 for dataset expansion.,Bob,Low,No Dependency,2025-01-06,2025-01-12,9,2025-01-12,0,6,6,1.2857142857142858,1.2857142857142858
+T561,Generated task 61 for dataset expansion.,Charlie,Low,No Dependency,2025-02-14,2025-02-22,7,2025-02-21,-1,8,7,0.7777777777777778,0.875
+T562,Generated task 62 for dataset expansion.,David,Medium,No Dependency,2025-03-07,2025-03-20,5,2025-03-19,-1,13,12,0.35714285714285715,0.38461538461538464
+T563,Generated task 63 for dataset expansion.,Alice,Medium,No Dependency,2025-02-10,2025-02-23,7,2025-02-21,-2,13,11,0.5,0.5833333333333334
+T564,Generated task 64 for dataset expansion.,Charlie,Low,No Dependency,2025-04-01,2025-04-11,12,2025-04-11,0,10,10,1.0909090909090908,1.0909090909090908
+T565,Generated task 65 for dataset expansion.,Alice,Medium,No Dependency,2025-01-30,2025-02-06,10,2025-02-07,1,7,8,1.25,1.1111111111111112
+T566,Generated task 66 for dataset expansion.,Bob,High,No Dependency,2025-03-15,2025-03-21,7,2025-03-22,1,6,7,1.0,0.875
+T567,Generated task 67 for dataset expansion.,Eve,Medium,No Dependency,2025-03-06,2025-03-18,9,2025-03-21,3,12,15,0.6923076923076923,0.5625
+T568,Generated task 68 for dataset expansion.,David,Medium,No Dependency,2025-03-25,2025-04-08,6,2025-04-13,5,14,19,0.4,0.3
+T569,Generated task 69 for dataset expansion.,David,Medium,No Dependency,2025-03-15,2025-03-20,4,2025-03-25,5,5,10,0.6666666666666666,0.36363636363636365
+T570,Generated task 70 for dataset expansion.,Alice,Low,No Dependency,2025-01-13,2025-01-19,12,2025-01-17,-2,6,4,1.7142857142857142,2.4
+T571,Generated task 71 for dataset expansion.,Bob,Medium,No Dependency,2025-02-22,2025-03-08,8,2025-03-07,-1,14,13,0.5333333333333333,0.5714285714285714
+T572,Generated task 72 for dataset expansion.,David,Medium,No Dependency,2025-02-27,2025-03-11,4,2025-03-14,3,12,15,0.3076923076923077,0.25
+T573,Generated task 73 for dataset expansion.,Bob,Medium,No Dependency,2025-01-24,2025-01-29,5,2025-01-30,1,5,6,0.8333333333333334,0.7142857142857143
+T574,Generated task 74 for dataset expansion.,Eve,Medium,No Dependency,2025-01-24,2025-01-31,12,2025-02-03,3,7,10,1.5,1.0909090909090908
+T575,Generated task 75 for dataset expansion.,David,Medium,No Dependency,2025-01-08,2025-01-20,4,2025-01-20,0,12,12,0.3076923076923077,0.3076923076923077
+T576,Generated task 76 for dataset expansion.,David,Low,No Dependency,2025-03-17,2025-03-25,9,2025-03-30,5,8,13,1.0,0.6428571428571429
+T577,Generated task 77 for dataset expansion.,Eve,Medium,No Dependency,2025-03-06,2025-03-13,12,2025-03-11,-2,7,5,1.5,2.0
+T578,Generated task 78 for dataset expansion.,David,Medium,No Dependency,2025-01-12,2025-01-24,12,2025-01-24,0,12,12,0.9230769230769231,0.9230769230769231
+T579,Generated task 79 for dataset expansion.,Alice,High,No Dependency,2025-01-19,2025-01-30,9,2025-01-28,-2,11,9,0.75,0.9
+T580,Generated task 80 for dataset expansion.,David,Medium,No Dependency,2025-01-09,2025-01-20,9,2025-01-19,-1,11,10,0.75,0.8181818181818182
+T581,Generated task 81 for dataset expansion.,Eve,Medium,No Dependency,2025-01-01,2025-01-12,6,2025-01-14,2,11,13,0.5,0.42857142857142855
+T582,Generated task 82 for dataset expansion.,David,Low,No Dependency,2025-01-06,2025-01-14,11,2025-01-14,0,8,8,1.2222222222222223,1.2222222222222223
+T583,Generated task 83 for dataset expansion.,Charlie,High,No Dependency,2025-01-08,2025-01-17,10,2025-01-20,3,9,12,1.0,0.7692307692307693
+T584,Generated task 84 for dataset expansion.,Alice,Low,No Dependency,2025-01-14,2025-01-25,8,2025-01-27,2,11,13,0.6666666666666666,0.5714285714285714
+T585,Generated task 85 for dataset expansion.,Bob,Medium,No Dependency,2025-02-05,2025-02-10,8,2025-02-08,-2,5,3,1.3333333333333333,2.0
+T586,Generated task 86 for dataset expansion.,David,Medium,No Dependency,2025-03-22,2025-04-06,4,2025-04-08,2,15,17,0.25,0.2222222222222222
+T587,Generated task 87 for dataset expansion.,Alice,Low,No Dependency,2025-03-15,2025-03-29,12,2025-03-28,-1,14,13,0.8,0.8571428571428571
+T588,Generated task 88 for dataset expansion.,Eve,Medium,No Dependency,2025-01-04,2025-01-14,6,2025-01-16,2,10,12,0.5454545454545454,0.46153846153846156
+T589,Generated task 89 for dataset expansion.,Alice,Medium,No Dependency,2025-01-21,2025-02-05,6,2025-02-10,5,15,20,0.375,0.2857142857142857
+T590,Generated task 90 for dataset expansion.,Alice,Medium,No Dependency,2025-03-12,2025-03-18,11,2025-03-19,1,6,7,1.5714285714285714,1.375
+T591,Generated task 91 for dataset expansion.,Alice,Medium,No Dependency,2025-03-22,2025-04-01,8,2025-04-03,2,10,12,0.7272727272727273,0.6153846153846154
+T592,Generated task 92 for dataset expansion.,Bob,Low,No Dependency,2025-03-05,2025-03-12,12,2025-03-14,2,7,9,1.5,1.2
+T593,Generated task 93 for dataset expansion.,Charlie,Medium,No Dependency,2025-02-02,2025-02-13,5,2025-02-11,-2,11,9,0.4166666666666667,0.5
+T594,Generated task 94 for dataset expansion.,David,Medium,No Dependency,2025-01-03,2025-01-11,9,2025-01-11,0,8,8,1.0,1.0
+T595,Generated task 95 for dataset expansion.,Charlie,Medium,No Dependency,2025-03-13,2025-03-25,5,2025-03-30,5,12,17,0.38461538461538464,0.2777777777777778
+T596,Generated task 96 for dataset expansion.,Alice,High,No Dependency,2025-03-29,2025-04-05,11,2025-04-03,-2,7,5,1.375,1.8333333333333333
+T597,Generated task 97 for dataset expansion.,David,Medium,No Dependency,2025-03-14,2025-03-29,12,2025-03-27,-2,15,13,0.75,0.8571428571428571
+T598,Generated task 98 for dataset expansion.,David,Low,No Dependency,2025-03-26,2025-04-07,9,2025-04-08,1,12,13,0.6923076923076923,0.6428571428571429
+T599,Generated task 99 for dataset expansion.,Charlie,Medium,No Dependency,2025-01-14,2025-01-21,7,2025-01-20,-1,7,6,0.875,1.0
+T600,Generated task 100 for dataset expansion.,Bob,Medium,No Dependency,2025-01-19,2025-01-28,11,2025-01-27,-1,9,8,1.1,1.2222222222222223
+T354,Reassessing business goals based on product analytics,Alice,High,T68,2025-01-20,2025-01-30,10,2025-01-28,-2,10,8,0.9090909090909091,1.1111111111111112
+T201,Researching emerging technologies for product innovation,Charlie,High,T62,2025-02-15,2025-02-23,8,2025-02-28,5,8,13,0.8888888888888888,0.5714285714285714
+T91,Tracking key product metrics using analytics tools,Eve,High,T47,2025-03-19,2025-03-28,9,2025-03-26,-2,9,7,0.9,1.125
+T159,Conducting security audits with external consultants,Charlie,High,T45,2025-03-17,2025-03-18,1,2025-03-18,0,1,1,0.5,0.5
+T350,Exploring edge computing for low-latency applications,Charlie,High,T83,2025-02-04,2025-02-13,9,2025-02-17,4,9,13,0.9,0.6428571428571429
+T536,Generated task 36 for dataset expansion.,Charlie,High,No Dependency,2025-03-06,2025-03-18,12,2025-03-23,5,12,17,0.9230769230769231,0.6666666666666666
+T159,Conducting security audits with external consultants,Charlie,High,T45,2025-03-17,2025-03-18,1,2025-03-18,0,1,1,0.5,0.5
+T395,Benchmarking product performance against industry leaders,David,High,T84,2025-02-22,2025-03-03,9,2025-03-04,1,9,10,0.9,0.8181818181818182
+T352,Presenting product performance to the leadership team,David,High,T65,2025-02-16,2025-02-19,3,2025-02-21,2,3,5,0.75,0.5
+T307,Conducting field tests on IoT performance under different conditions,David,High,T75,2025-02-04,2025-02-07,3,2025-02-06,-1,3,2,0.75,1.0
+T84,Conducting surveys on product usability,Eve,High,T22,2025-03-15,2025-03-22,7,2025-03-23,1,7,8,0.875,0.7777777777777778
+T566,Generated task 66 for dataset expansion.,Bob,High,No Dependency,2025-03-15,2025-03-21,7,2025-03-22,1,6,7,1.0,0.875
+T322,Training NLP models for better user interactions,Eve,High,T38,2025-03-01,2025-03-05,4,2025-03-07,2,4,6,0.8,0.5714285714285714
+T169,Testing product performance under high user loads,Bob,High,T34,2025-02-03,2025-02-10,7,2025-02-14,4,7,11,0.875,0.5833333333333334
+T49,Leading sprint retrospective discussions,Bob,High,T20,2025-02-12,2025-02-19,7,2025-02-20,1,7,8,0.875,0.7777777777777778
+T474,Managing GDPR and CCPA compliance in product design,David,High,T3,2025-02-06,2025-02-10,4,2025-02-13,3,4,7,0.8,0.5
+T238,Testing micro-interactions for enhanced user experience,Eve,High,T65,2025-03-04,2025-03-05,1,2025-03-09,4,1,5,0.5,0.16666666666666666
+T536,Generated task 36 for dataset expansion.,Charlie,High,No Dependency,2025-03-06,2025-03-18,12,2025-03-23,5,12,17,0.9230769230769231,0.6666666666666666
+T238,Testing micro-interactions for enhanced user experience,Eve,High,T65,2025-03-04,2025-03-05,1,2025-03-09,4,1,5,0.5,0.16666666666666666
+T320,Educating users on cybersecurity best practices,Charlie,High,T40,2025-02-10,2025-02-16,6,2025-02-13,-3,6,3,0.8571428571428571,1.5
+T516,Generated task 16 for dataset expansion.,Charlie,High,No Dependency,2025-03-30,2025-04-05,9,2025-04-08,3,6,9,1.2857142857142858,0.9
+T435,Developing pricing models tailored for new markets,Eve,High,T40,2025-01-24,2025-01-31,7,2025-01-28,-3,7,4,0.875,1.4
+T271,Customizing product features for enterprise clients,Charlie,High,T43,2025-03-08,2025-03-15,7,2025-03-19,4,7,11,0.875,0.5833333333333334
+T345,Managing digital twin implementations for real-world simulations,Bob,High,T61,2025-03-13,2025-03-16,3,2025-03-17,1,3,4,0.75,0.6
+T380,Communicating strategic pivots to internal teams,Alice,High,T84,2025-01-25,2025-02-01,7,2025-01-31,-1,7,6,0.875,1.0
+T377,Setting key performance indicators (KPIs) for roadmap success,David,High,T46,2025-03-14,2025-03-16,2,2025-03-13,-3,2,-1,0.6666666666666666,inf
+T558,Generated task 58 for dataset expansion.,Charlie,High,No Dependency,2025-02-16,2025-02-26,12,2025-02-25,-1,10,9,1.0909090909090908,1.2
+T237,Analyzing customer complaints to refine product features,Bob,High,T65,2025-03-19,2025-03-26,7,2025-03-31,5,7,12,0.875,0.5384615384615384
+T468,Partnering with academia for research-driven innovation,David,High,T45,2025-01-25,2025-01-30,5,2025-02-01,2,5,7,0.8333333333333334,0.625
+T132,Prioritizing tasks in Jira or other project management tools,Charlie,High,T41,2025-02-04,2025-02-05,1,2025-02-05,0,1,1,0.5,0.5
+T485,Managing PR challenges related to product failures,Charlie,High,No Dependency,2025-02-19,2025-02-25,6,2025-03-01,4,6,10,0.8571428571428571,0.5454545454545454
+T315,Addressing data breach risks through proactive measures,Alice,High,T47,2025-02-01,2025-02-02,1,2025-02-07,5,1,6,0.5,0.14285714285714285
+T201,Researching emerging technologies for product innovation,Charlie,High,T62,2025-02-15,2025-02-23,8,2025-02-28,5,8,13,0.8888888888888888,0.5714285714285714
+T350,Exploring edge computing for low-latency applications,Charlie,High,T83,2025-02-04,2025-02-13,9,2025-02-17,4,9,13,0.9,0.6428571428571429
+T245,Optimizing trial period lengths for better conversions,Eve,High,T89,2025-02-15,2025-02-20,5,2025-02-24,4,5,9,0.8333333333333334,0.5
+T62,Participating in product demo sessions with developers,Eve,High,T11,2025-03-10,2025-03-16,6,2025-03-20,4,6,10,0.8571428571428571,0.5454545454545454
+T583,Generated task 83 for dataset expansion.,Charlie,High,No Dependency,2025-01-08,2025-01-17,10,2025-01-20,3,9,12,1.0,0.7692307692307693
+T566,Generated task 66 for dataset expansion.,Bob,High,No Dependency,2025-03-15,2025-03-21,7,2025-03-22,1,6,7,1.0,0.875
+T169,Testing product performance under high user loads,Bob,High,T34,2025-02-03,2025-02-10,7,2025-02-14,4,7,11,0.875,0.5833333333333334
+T576,Generated task 76 for dataset expansion.,David,Low,No Dependency,2025-03-17,2025-03-25,9,2025-03-30,5,8,13,1.0,0.6428571428571429
+T414,Collaborating with customer support to reduce churn,Bob,Low,T53,2025-02-10,2025-02-15,5,2025-02-13,-2,5,3,0.8333333333333334,1.25
+T106,Monitoring online forums for product-related discussions,Eve,Low,T13,2025-02-09,2025-02-10,1,2025-02-13,3,1,4,0.5,0.2
+T203,Investigating AR/VR for enhanced user experiences,Charlie,Low,T71,2025-03-13,2025-03-16,3,2025-03-17,1,3,4,0.75,0.6
+T122,Aligning marketing campaigns with product launch timelines,Bob,Low,T68,2025-03-13,2025-03-16,3,2025-03-20,4,3,7,0.75,0.375
+T481,Developing contingency plans for product outages,Bob,Low,T12,2025-01-26,2025-01-27,1,2025-01-28,1,1,2,0.5,0.3333333333333333
+T257,Running paid advertising tests for user acquisition,Bob,Low,T38,2025-02-14,2025-02-19,5,2025-02-20,1,5,6,0.8333333333333334,0.7142857142857143
+T584,Generated task 84 for dataset expansion.,Alice,Low,No Dependency,2025-01-14,2025-01-25,8,2025-01-27,2,11,13,0.6666666666666666,0.5714285714285714
+T530,Generated task 30 for dataset expansion.,Alice,Low,No Dependency,2025-03-06,2025-03-14,6,2025-03-16,2,8,10,0.6666666666666666,0.5454545454545454
+T167,Implementing lazy loading for improved UI performance,Eve,Low,T34,2025-02-17,2025-02-25,8,2025-03-02,5,8,13,0.8888888888888888,0.5714285714285714
+T306,Ensuring regulatory compliance for hardware devices,Bob,Low,T46,2025-02-11,2025-02-14,3,2025-02-12,-2,3,1,0.75,1.5
+T570,Generated task 70 for dataset expansion.,Alice,Low,No Dependency,2025-01-13,2025-01-19,12,2025-01-17,-2,6,4,1.7142857142857142,2.4
+T52,Finalizing API requirements with developers,David,Low,T79,2025-02-17,2025-02-26,9,2025-03-01,3,9,12,0.9,0.6923076923076923
+T592,Generated task 92 for dataset expansion.,Bob,Low,No Dependency,2025-03-05,2025-03-12,12,2025-03-14,2,7,9,1.5,1.2
+T120,Documenting lessons learned from past projects,Eve,Low,T43,2025-02-21,2025-03-01,8,2025-02-28,-1,8,7,0.8888888888888888,1.0
+T419,Conducting customer success interviews to refine adoption strategies,Charlie,Low,T76,2025-02-18,2025-02-19,1,2025-02-23,4,1,5,0.5,0.16666666666666666
+T222,Conducting ethical reviews of AI-driven features,Bob,Low,T81,2025-03-03,2025-03-08,5,2025-03-05,-3,5,2,0.8333333333333334,1.6666666666666667
+T528,Generated task 28 for dataset expansion.,David,Low,No Dependency,2025-02-17,2025-02-25,12,2025-02-23,-2,8,6,1.3333333333333333,1.7142857142857142
+T120,Documenting lessons learned from past projects,Eve,Low,T43,2025-02-21,2025-03-01,8,2025-02-28,-1,8,7,0.8888888888888888,1.0
+T46,Resolving blockers during sprint execution,Charlie,Low,T5,2025-03-09,2025-03-18,9,2025-03-19,1,9,10,0.9,0.8181818181818182
+T340,Monitoring NFT marketplace growth and adoption,Charlie,Low,T17,2025-03-15,2025-03-21,6,2025-03-24,3,6,9,0.8571428571428571,0.6
+T26,Presenting the product roadmap to stakeholders,Alice,Low,T47,2025-02-03,2025-02-09,6,2025-02-12,3,6,9,0.8571428571428571,0.6
+T113,Documenting API endpoints for developers,David,Low,T71,2025-02-24,2025-03-02,6,2025-03-02,0,6,6,0.8571428571428571,0.8571428571428571
+T312,Implementing end-to-end encryption for user data,Charlie,Low,T89,2025-03-11,2025-03-17,6,2025-03-15,-2,6,4,0.8571428571428571,1.2
+T244,Experimenting with freemium vs. premium feature sets,David,Low,T4,2025-02-09,2025-02-14,5,2025-02-15,1,5,6,0.8333333333333334,0.7142857142857143
+T314,Conducting penetration testing to identify vulnerabilities,David,Low,T53,2025-03-16,2025-03-22,6,2025-03-20,-2,6,4,0.8571428571428571,1.2
+T67,Monitoring crash reports for stability issues,David,Low,T20,2025-03-17,2025-03-21,4,2025-03-19,-2,4,2,0.8,1.3333333333333333
+T37,Iterating on wireframe designs based on stakeholder input,Charlie,Low,T48,2025-01-31,2025-02-05,5,2025-02-03,-2,5,3,0.8333333333333334,1.25
+T423,Monitoring feature engagement trends over time,Eve,Low,T91,2025-03-13,2025-03-15,2,2025-03-14,-1,2,1,0.6666666666666666,1.0
+T166,Improving API response times through optimization,David,Low,T54,2025-03-17,2025-03-24,7,2025-03-27,3,7,10,0.875,0.6363636363636364
+T13,Evaluating potential product-market fit,David,Low,T45,2025-03-06,2025-03-07,1,2025-03-12,5,1,6,0.5,0.14285714285714285
+T106,Monitoring online forums for product-related discussions,Eve,Low,T13,2025-02-09,2025-02-10,1,2025-02-13,3,1,4,0.5,0.2
+T500,Documenting key takeaways for future product development,Alice,Low,T13,2025-02-14,2025-02-19,5,2025-02-19,0,5,5,0.8333333333333334,0.8333333333333334
+T38,Analyzing heatmap data to improve UI design,Eve,Low,T81,2025-03-17,2025-03-26,9,2025-03-29,3,9,12,0.9,0.6923076923076923
+T419,Conducting customer success interviews to refine adoption strategies,Charlie,Low,T76,2025-02-18,2025-02-19,1,2025-02-23,4,1,5,0.5,0.16666666666666666
+T252,Optimizing social sharing features within the product,David,Low,T65,2025-02-07,2025-02-15,8,2025-02-18,3,8,11,0.8888888888888888,0.6666666666666666
+T440,Evaluating expansion risks in emerging markets,Charlie,Low,T91,2025-03-03,2025-03-10,7,2025-03-11,1,7,8,0.875,0.7777777777777778
+T166,Improving API response times through optimization,David,Low,T54,2025-03-17,2025-03-24,7,2025-03-27,3,7,10,0.875,0.6363636363636364
+T155,Documenting risk mitigation strategies for leadership,Bob,Low,T13,2025-02-14,2025-02-17,3,2025-02-18,1,3,4,0.75,0.6
+T218,Partnering with local vendors for regional support,Charlie,Low,T45,2025-02-26,2025-03-07,9,2025-03-09,2,9,11,0.9,0.75
+T235,Experimenting with feature placement for better engagement,Eve,Low,T43,2025-03-10,2025-03-11,1,2025-03-10,-1,1,0,0.5,1.0
+T561,Generated task 61 for dataset expansion.,Charlie,Low,No Dependency,2025-02-14,2025-02-22,7,2025-02-21,-1,8,7,0.7777777777777778,0.875
+T261,Ensuring smooth app performance across iOS and Android,Charlie,Low,T91,2025-03-18,2025-03-22,4,2025-03-23,1,4,5,0.8,0.6666666666666666
+T498,Providing long-term support for essential legacy features,Alice,Low,T71,2025-03-01,2025-03-11,10,2025-03-11,0,10,10,0.9090909090909091,0.9090909090909091
+T213,Expanding product offerings based on user demand,Charlie,Low,T78,2025-01-27,2025-02-06,10,2025-02-11,5,10,15,0.9090909090909091,0.625
+T296,Analyzing churn rate for SaaS retention improvement,Eve,Low,T61,2025-02-04,2025-02-14,10,2025-02-18,4,10,14,0.9090909090909091,0.6666666666666666
+T65,Testing product features across different devices,David,Low,T43,2025-01-28,2025-02-05,8,2025-02-04,-1,8,7,0.8888888888888888,1.0
+T281,Optimizing checkout flows for better conversions,David,Low,T61,2025-03-08,2025-03-15,7,2025-03-19,4,7,11,0.875,0.5833333333333334
+T40,Preparing design mockups for developer handoff,Alice,Low,T40,2025-02-01,2025-02-08,7,2025-02-13,5,7,12,0.875,0.5384615384615384
+T324,Implementing AI-driven customer support automation,Bob,Low,T29,2025-03-07,2025-03-13,6,2025-03-18,5,6,11,0.8571428571428571,0.5
+T111,Writing clear and concise product requirement documents (PRDs),David,Low,T45,2025-01-19,2025-01-27,8,2025-01-31,4,8,12,0.8888888888888888,0.6153846153846154
+T440,Evaluating expansion risks in emerging markets,Charlie,Low,T91,2025-03-03,2025-03-10,7,2025-03-11,1,7,8,0.875,0.7777777777777778
+T183,Leveraging data visualization for business insights,Charlie,Low,T89,2025-02-26,2025-03-06,8,2025-03-08,2,8,10,0.8888888888888888,0.7272727272727273
+T234,Implementing feedback loops for continuous improvements,Charlie,Low,T29,2025-01-24,2025-01-29,5,2025-02-03,5,5,10,0.8333333333333334,0.45454545454545453
+T500,Documenting key takeaways for future product development,Alice,Low,T13,2025-02-14,2025-02-19,5,2025-02-19,0,5,5,0.8333333333333334,0.8333333333333334
+T173,Designing loyalty programs for frequent users,David,Low,T43,2025-02-07,2025-02-10,3,2025-02-14,4,3,7,0.75,0.375
+T22,Prioritizing product features based on impact and feasibility,Charlie,Low,T99,2025-03-08,2025-03-10,2,2025-03-09,-1,2,1,0.6666666666666666,1.0
+T203,Investigating AR/VR for enhanced user experiences,Charlie,Low,T71,2025-03-13,2025-03-16,3,2025-03-17,1,3,4,0.75,0.6
+T495,Analyzing financial impacts of feature deprecation,David,Low,T11,2025-01-25,2025-02-03,9,2025-02-05,2,9,11,0.9,0.75
+T277,Implementing role-based access control in the product,Eve,Low,T20,2025-02-12,2025-02-14,2,2025-02-18,4,2,6,0.6666666666666666,0.2857142857142857
+T304,Optimizing power consumption in IoT devices,Eve,Low,T4,2025-02-07,2025-02-17,10,2025-02-14,-3,10,7,0.9090909090909091,1.25
+T46,Resolving blockers during sprint execution,Charlie,Low,T5,2025-03-09,2025-03-18,9,2025-03-19,1,9,10,0.9,0.8181818181818182
+T52,Finalizing API requirements with developers,David,Low,T79,2025-02-17,2025-02-26,9,2025-03-01,3,9,12,0.9,0.6923076923076923
+T120,Documenting lessons learned from past projects,Eve,Low,T43,2025-02-21,2025-03-01,8,2025-02-28,-1,8,7,0.8888888888888888,1.0
+T472,Conducting legal risk assessments for new features,Alice,Low,T29,2025-03-01,2025-03-04,3,2025-03-04,0,3,3,0.75,0.75
+T210,Brainstorming breakthrough ideas for product differentiation,Eve,Low,T89,2025-02-04,2025-02-12,8,2025-02-16,4,8,12,0.8888888888888888,0.6153846153846154
+T582,Generated task 82 for dataset expansion.,David,Low,No Dependency,2025-01-06,2025-01-14,11,2025-01-14,0,8,8,1.2222222222222223,1.2222222222222223
+T532,Generated task 32 for dataset expansion.,Alice,Low,No Dependency,2025-03-06,2025-03-18,7,2025-03-21,3,12,15,0.5384615384615384,0.4375
+T213,Expanding product offerings based on user demand,Charlie,Low,T78,2025-01-27,2025-02-06,10,2025-02-11,5,10,15,0.9090909090909091,0.625
+T304,Optimizing power consumption in IoT devices,Eve,Low,T4,2025-02-07,2025-02-17,10,2025-02-14,-3,10,7,0.9090909090909091,1.25
+T17,Identifying key differentiators for the product,Eve,Low,T83,2025-01-25,2025-02-01,7,2025-02-06,5,7,12,0.875,0.5384615384615384
+T38,Analyzing heatmap data to improve UI design,Eve,Low,T81,2025-03-17,2025-03-26,9,2025-03-29,3,9,12,0.9,0.6923076923076923
