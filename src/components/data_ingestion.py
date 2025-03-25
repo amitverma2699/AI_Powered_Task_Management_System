@@ -20,7 +20,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Data Ingestion started")
         try:
-            data=pd.read_csv(Path(os.path.join("notebooks\data","gemstone.csv")))
+            data=pd.read_csv(Path(os.path.join("notebooks\data","Optimized_Dataset.csv")))
             logging.info("Read the Dataset.")
 
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
